@@ -1,0 +1,740 @@
+/* header */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+p {
+    margin: 0;
+}
+
+body > header {
+    position: absolute;
+    background-color: #040404;
+    width: 100%;
+}
+
+body > header > a:first-child > img {
+    position: absolute;
+    top: 44.4px;
+    left: 8.13vw;
+    width: 50.4375px;
+    aspect-ratio: auto;
+}
+
+body > header > nav {
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    right: 6.93vw;
+    top: 44px;
+
+}
+
+body > header > nav > a {
+    color: #FFFFFF;
+    text-decoration: unset;
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 1.875vw;
+
+}
+
+/* hero section */
+body > main > section:first-child {
+    width: 100%;
+    height: 955px;
+    background-color: #040404;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+
+}
+
+body > main > section:first-child > h4 , body > main > section:first-child > h3 , body > main > section:first-child > h1 , body > main > section:first-child > button {
+    margin: 0;
+    position: absolute;
+    left: 8.13vw;
+
+}
+
+body > main > section:first-child > h3:first-child {
+    /*top: 26.5vh;*/
+    top: 250px;
+    /*font-size: 2.11vw;*/
+    font-size: 42px;
+    font-weight: 300;
+
+}
+
+body > main > section:first-child > h1:nth-child(2) {
+    /*top: 35vh;*/
+    top: 326px;
+    /*font-size: 4.22vw;*/
+    font-size: 84px;
+    font-weight: 900;
+
+}
+
+body > main > section:first-child > h1:nth-child(3) {
+    left: calc(8.13vw + 192px);
+    /*top: 35vh;*/
+    top: 326px;
+    /*font-size: 4.22vw;*/
+    font-size: 84px;
+    font-weight: 900;
+    color: #E85D04;
+
+}
+
+body > main > section:first-child > h3:nth-child(4) {
+    /*font-size: 2.11vw;*/
+    font-size: 42px;
+    font-weight: 600;
+    /*top: 46.5vh;*/
+    top: 441px;
+
+}
+
+body > main > section:first-child > h4:nth-child(5) {
+    /*font-size: 1vw;*/
+    font-size: 20px;
+    font-weight: 300;
+    /*top: 55vh;*/
+    top: 538px;
+
+}
+
+body > main > section:first-child > button:nth-child(6) {
+    /*font-size: 1.608vw;*/
+    font-size: 32px;
+    font-weight: 800;
+    color: #E85D04;
+    text-align: left;
+    padding-left: 2vw;
+    width: 309px;
+    height: 70px;
+    box-sizing: border-box;
+    background-color: #1C1C1C;
+    border: 1px solid #E85D04;
+    border-radius: 50px;
+    /*top: 64vh;*/
+    top: 623px;
+
+}
+
+body > main > section:first-child > button:nth-child(6) > a > img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+    margin: auto;
+    width: 40px;
+    aspect-ratio: auto;
+
+}
+
+body > main > section:first-child > button:nth-child(6) > a {
+    font-size: 32px;
+    font-weight: 800;
+    color: #E85D04;
+    text-decoration: none;
+
+}
+
+body > main > section:first-child > div:nth-child(7) > img:first-child {
+    position: absolute;
+    /*width: 38.8vw;*/
+    height: 900px;
+    aspect-ratio: auto;
+    bottom: 0;
+    right: 4vw;
+
+}
+
+body > main > section:first-child > div:nth-child(7) > img:nth-child(2) {
+    position: absolute;
+    /*width: 38.8vw;*/
+    height: 1144.46px;
+    aspect-ratio: auto;
+    border-radius: 180px;
+    transform: rotate(-132.26deg);
+    rotation-point: top;
+    top: 18vh;
+    right: -33vw;
+    z-index: -1;
+
+}
+
+body > main > section:first-child > div:nth-child(8) {
+    position: absolute;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+    margin: auto;
+
+}
+
+body > main > section:first-child > div:nth-child(8) > a > img {
+    position: relative;
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+
+}
+
+/* about me section */
+body > main > section:nth-child(2) {
+    width: 100%;
+    height: 1009px;
+    background-color: #040404;
+    position: relative;
+    z-index: -1;
+
+}
+
+body > main > section:nth-child(2) > img {
+    position: absolute;
+    height: 641px;
+    aspect-ratio: auto;
+    border: 8px solid #E85D04;
+    top: 167px;
+    left: 9vw;
+
+}
+
+body > main > section:nth-child(2) > h3 {
+    position: absolute;
+    font-size: 48px;
+    font-weight: 600;
+    color: #E85D04;
+    top: 180px;
+    left: calc(9vw + 613px);
+
+}
+
+body > main > section:nth-child(2) > div {
+    position: absolute;
+    margin: 0;
+    background-color: #E85D04;
+    height: 6px;
+    top: 290px;
+
+}
+
+body > main > section:nth-child(2) > div:nth-child(3) {
+    width: 297px;
+    left: calc(9vw + 613px);
+
+}
+
+body > main > section:nth-child(2) > div:nth-child(4) {
+    width: 6px;
+    left: calc(9vw + 925px);
+
+}
+
+body > main > section:nth-child(2) > p:nth-child(5) {
+    position: absolute;
+    width: 50vw;
+    top: 420px;
+    left: calc(9vw + 613px);
+    font-size: 24px;
+
+}
+
+body > main > section:nth-child(2) > button:nth-child(6) {
+    position: absolute;
+    width: 215px;
+    height: 44px;
+    box-sizing: border-box;
+    background-color: #1C1C1C;
+    border: 1px solid #E85D04;
+    border-radius: 50px;
+    top: 610px;
+    left: calc(9vw + 613px);
+
+}
+
+body > main > section:nth-child(2) > button:nth-child(6) > a {
+    color: #E85D04;
+    text-decoration: unset;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+/* education section */
+body > main > section:nth-child(3) {
+    width: 100%;
+    height: 713px;
+    background-color: #040404;
+    position: relative;
+    z-index: -1;
+
+}
+
+body > main > section:nth-child(3) > div {
+    position: absolute;
+    width: 986px;
+    height: 550px;
+    background-color: #1C1C1C;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(3) > div > img {
+    position: absolute;
+    width: 174px;
+    aspect-ratio: 1/1;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 5px solid #E85D04;
+    left: 118px;
+    top: 159px;
+
+}
+
+body > main > section:nth-child(3) > div > h3 {
+    position: absolute;
+    margin: 0;
+    font-size: 48px;
+    font-weight: 600;
+    left: 108px;
+    top:  350px;
+
+}
+
+body > main > section:nth-child(3) > div > div{
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    top: 0;
+    bottom: 0;
+    left: 436px;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(3) > div > div > div{
+    position: relative;
+    width: 500px;
+    height: fit-content;
+    /*background-color: red;*/
+
+}
+
+body > main > section:nth-child(3) > div > div > div > img{
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    top: -3px;
+
+}
+
+body > main > section:nth-child(3) > div > div > div > p{
+    position: relative;
+    font-weight: 300;
+    left: 66px;
+
+}
+
+body > main > section:nth-child(3) > div > div > div > p:nth-child(2){
+    position: relative;
+    font-size: 24px;
+
+}
+
+body > main > section:nth-child(3) > div > div > div > p:nth-child(3){
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+
+}
+
+body > main > section:nth-child(3) > div > div > div:nth-child(4) > p:nth-child(3){
+    margin-bottom: 0;
+
+}
+
+/* job roles section */
+body > main > section:nth-child(4) {
+    position: relative;
+    width: 100%;
+    height: 1280px;
+    background-color: #040404;
+
+}
+
+body > main > section:nth-child(4) > h3 {
+    position: absolute;
+    font-size: 48px;
+    font-weight: 600;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(4) > div {
+    position: absolute;
+    width: 463px;
+    height: 408px;
+    background-color: #1C1C1C;
+    /*left: 170px;*/
+}
+
+body > main > section:nth-child(4) > div:nth-child(2) {
+    top: 20vh;
+    left: 8vw;
+
+}
+
+body > main > section:nth-child(4) > div:nth-child(3) {
+    top: 20vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(4) > div:nth-child(4) {
+    top: 20vh;
+    right: 8vw;
+}
+
+body > main > section:nth-child(4) > div:nth-child(5) {
+    top: 73vh;
+    left: 21.9vw;
+}
+
+body > main > section:nth-child(4) > div:nth-child(6) {
+    top: 73vh;
+    right: 21.9vw;
+}
+
+body > main > section:nth-child(4) > div > img {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 0;
+    right: 0;
+    top: 42px;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(4) > div > p {
+    position: absolute;
+    font-weight: 300;
+    /*background-color: red;*/
+    height: fit-content;
+    width: fit-content;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(4) > div > p:nth-child(2) {
+    font-size: 32px;
+    top: 233px;
+
+}
+
+body > main > section:nth-child(4) > div > p:nth-child(3) {
+    font-size: 16px;
+    margin-top: 60px;
+    width: 250px;
+    text-align: center;
+    top: 233px;
+
+}
+
+body > main > section:nth-child(4) > div:nth-child(2) > img {
+    top: 30px;
+
+}
+
+body > main > section:nth-child(4) > div:nth-child(5) > img {
+    height: 160px;
+    width: 160px;
+    top: 60px;
+
+}
+
+/* recent projects */
+body > main > section:nth-child(5) {
+    position: relative;
+    width: 100%;
+    height: 1100px;
+    background-color: #040404;
+
+}
+
+body > main > section:nth-child(5) > h3 {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    font-size: 48px;
+    font-weight: 600;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(5) > div {
+    position: absolute;
+    width: 452px;
+    height: 620px;
+    top: 25vh;
+    background-color: #1C1C1C;
+
+}
+
+body > main > section:nth-child(5) > div:nth-child(2) {
+    left: 12vw;
+
+}
+
+body > main > section:nth-child(5) > div:nth-child(3) {
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(5) > div:nth-child(4) {
+    right: 12vw;
+
+}
+
+body > main > section:nth-child(5) > div > img:first-child {
+    position: absolute;
+    width: 452px;
+    height: 240px;
+    font-size: 48px;
+    font-weight: 600;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(5) > div > p:nth-child(2) {
+    position: absolute;
+    width:  300px;
+    /*background-color: red;*/
+    height: fit-content;
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 281px;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(5) > div > p:nth-child(3) {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    font-size: 16px;
+    font-weight: 200;
+    left: 0;
+    right: 0;
+    top: 399px;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(5) > div > img:nth-child(4) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 35px;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(5) > div:nth-child(2) > img:nth-child(4) {
+    width: 133px;
+    height: 126px;
+
+}
+
+body > main > section:nth-child(5) > div:nth-child(3) > img:nth-child(4) {
+    width: 107px;
+    height: 108px;
+
+}
+
+/* footer */
+body > footer {
+    position: relative;
+    width: 100%;
+    height: 427px;
+    background-color: #040404;
+
+}
+
+body > footer > div:first-child {
+    position: relative;
+    width: 100%;
+    height: 385px;
+    background-color: #1C1C1C;
+
+}
+
+body > footer > div > h3 {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    font-size: 40px;
+    font-weight: 500;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 30px;
+
+}
+
+body > footer > div > div {
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+body > footer > div > div > img {
+    position: absolute;
+    width: 72px;
+    height: 62px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body > footer > div > div > h4 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+
+}
+
+body > footer > div > div > p {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+body > footer > div > div:nth-child(2) > img {
+    width: 72px;
+    height: 62px;
+
+}
+
+body > footer > div > div:nth-child(2) > h4 {
+    top: 85px;
+
+}
+
+body > footer > div > div:nth-child(2) > p {
+    top: 110px;
+
+}
+
+body > footer > div > div:nth-child(3) > img {
+    width: 74px;
+    height: 76px;
+
+}
+
+body > footer   > div > div:nth-child(3) > h4 {
+    top: 85px;
+
+}
+
+body > footer > div > div:nth-child(3) > p {
+    top: 110px;
+
+}
+
+body > footer > div > div:nth-child(2) {
+    top: 120px;
+    left: 20vw;
+
+}
+
+body > footer > div > div:nth-child(3) {
+    top: 120px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body > footer > div > div:nth-child(3) {
+    top: 120px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body > footer > div > div:nth-child(4) {
+    position: absolute;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    right: 13vw;
+    top: 150px;
+
+}
+
+body > footer > div > div:nth-child(4) > a > img {
+    position: relative;
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+
+}
+
+body > footer > div:nth-child(2) {
+    position: relative;
+    width: 100%;
+    height: 42px;
+    background-color: #E85D04;
+
+}
+
+body > footer > div:nth-child(2) > img {
+    position: absolute;
+    height: 30px;
+    aspect-ratio: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
