@@ -47,11 +47,11 @@ body > header > nav > a {
 
 }
 
-/* projects section */
+/* assignment card section */
 body > main > section {
     position: relative;
     width: 100%;
-    height: 1850px;
+    height: 3280px;
     background-color: #040404;
     z-index: -1;
 
@@ -78,7 +78,7 @@ body > main > section > h1 {
 body > main > section > div:nth-child(2){
     position: absolute;
     display: flex;
-    height: 1450px;
+    height: 2860px;
     width: 83vw;
     top: 300px;
     left: 0;
@@ -98,14 +98,23 @@ body > main > section > div:nth-child(2) > div {
 
 }
 
-body > main > section > div:nth-child(2) > div:nth-child(2) {
+body > main > section > div:nth-child(2) > div:nth-child(11) {
+    position: absolute;
+    width: 452px;
+    height: 620px;
+    background-color: #1C1C1C;
+    /*margin: 24px;*/
+    left: 0;
+    right: 0;
+    top: 2145px;
+    margin: auto;
 
 }
 
 body > main > section > div:nth-child(2) > div > img:first-child {
     position: absolute;
     width: 452px;
-    height: 240px;
+    height: 302px;
     left: 0;
     right: 0;
     margin: auto;
@@ -127,7 +136,7 @@ body > main > section > div:nth-child(2) > div > p:nth-child(2) {
     font-size: 32px;
     font-weight: 300;
     text-align: center;
-    top: 281px;
+    top: 371px;
 
 }
 
@@ -135,34 +144,7 @@ body > main > section > div:nth-child(2) > div > p:nth-child(3) {
     width: fit-content;
     font-size: 16px;
     font-weight: 200;
-    top: 399px;
-
-}
-
-body > main > section > div:nth-child(2) > div > img:nth-child(4) {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 35px;
-    margin: auto;
-
-}
-
-body > main > section > div:nth-child(2) > div:first-child > img:nth-child(4) {
-    width: 133px;
-    height: 126px;
-
-}
-
-body > main > section > div:nth-child(2) > div:nth-child(2) > img:nth-child(4) {
-    width: 107px;
-    height: 108px;
-
-}
-
-body > main > section > div:nth-child(2) > div:nth-child(3) > img:nth-child(4) {
-    width: 100px;
-    height: 100px;
+    top: 459px;
 
 }
 
@@ -325,4 +307,6 @@ body > footer > div:nth-child(2) > img {
     margin: auto;
 
 }
+
+
 
