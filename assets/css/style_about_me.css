@@ -1,0 +1,570 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+p {
+    margin: 0;
+}
+
+/* header */
+
+body > header {
+    position: absolute;
+    background-color: #040404;
+    width: 100%;
+    height: 80px;
+
+}
+
+body > header > a:first-child > img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 8.13vw;
+    width: 50.4375px;
+    aspect-ratio: auto;
+}
+
+body > header > nav {
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    right: 6.93vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+body > header > nav > a {
+    color: #FFFFFF;
+    text-decoration: unset;
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 1.875vw;
+
+}
+
+/* about me section */
+body > main > section:first-child {
+    position: relative;
+    width: 100%;
+    height: 955px;
+    background-color: #040404;
+    z-index: -1;
+
+}
+
+body > main > section:first-child > h1 {
+    position: absolute;
+    display: flex;
+    width: 83vw;
+    height: 82px;
+    background-color: #1C1C1C;
+    color: #E85D04;
+    font-size: 48px;
+    font-weight: 700;
+    top: 136px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body > main > section:first-child > img {
+    position: absolute;
+    left: 12.8vw;
+    top: 275px;
+    width: 497px;
+    aspect-ratio: auto;
+    border: 8px solid #E85D04;
+
+}
+
+body > main > section:first-child > p {
+    position: absolute;
+    font-size: 24px;
+    font-weight: 400;
+    width: 36.5vw;
+    height: 298px;
+    top: 450px;
+    left: calc(12.8vw + 650px);
+
+}
+
+/* education section */
+body > main > section:nth-child(2) {
+    position: relative;
+    width: 100%;
+    height: 1300px;
+    background-color: #040404;
+    z-index: -1;
+
+}
+
+body > main > section:nth-child(2) > div:first-child {
+    position: absolute;
+    width: 404px;
+    height: 373px;
+    background-color: #1C1C1C;
+    left: 0;
+    right: 0;
+    top: 207px;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(2) > div:first-child > img {
+    position: absolute;
+    height: 174px;
+    aspect-ratio: auto;
+    border: 5px solid #E85D04;
+    padding-left: 4px;
+    padding-right: 4px;
+    left: 0;
+    right: 0;
+    top: 75px;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(2) > div:first-child > h3 {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    font-size: 48px;
+    font-weight: 700;
+    left: 0;
+    right: 0;
+    top: 270px;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(2) > div:nth-child(2) {
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    top: 808px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(2) > div:nth-child(2) > div {
+    position: relative;
+    width: 420px;
+    height: fit-content;
+    /*background-color: red;*/
+
+}
+
+body > main > section:nth-child(2) > div:nth-child(2) > div > img{
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    top: -3px;
+
+}
+
+body > main > section:nth-child(2) > div:nth-child(2) > div > p{
+    position: relative;
+    font-weight: 300;
+    left: 66px;
+
+}
+
+body > main > section:nth-child(2) > div:nth-child(2) > div > p:nth-child(2){
+    position: relative;
+    font-size: 24px;
+
+}
+
+body > main > section:nth-child(2) > div:nth-child(2) > div > p:nth-child(3) {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+
+}
+
+/* languages section */
+body > main > section:nth-child(3) {
+    position: relative;
+    width: 100%;
+    height: 670px;
+    background-color: #040404;
+    z-index: -1;
+
+}
+
+body > main > section:nth-child(3) > h3 {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    font-size: 48px;
+    font-weight: 700;
+    color: #E85D04;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(3) > div {
+    position: absolute;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 242px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(3) > div > img:first-child {
+    width: 127px;
+    height: 171px;
+
+}
+
+body > main > section:nth-child(3) > div > img:nth-child(2) {
+    width: 180px;
+    height: 95px;
+
+}
+
+body > main > section:nth-child(3) > div > img:nth-child(3) {
+    width: 154px;
+    height: 154px;
+
+}
+
+body > main > section:nth-child(3) > div > img:nth-child(4) {
+    width: 146px;
+    height: 206px;
+
+}
+
+body > main > section:nth-child(3) > div > img:nth-child(5) {
+    width: 146px;
+    height: 206px;
+
+}
+
+/* achievements section */
+body > main > section:nth-child(4) {
+    position: relative;
+    width: 100%;
+    height: 5000px;
+    background-color: #040404;
+    z-index: -1;
+
+}
+
+body > main > section:nth-child(4) > div:first-child {
+    position: absolute;
+    width: 404px;
+    height: 373px;
+    background-color: #1C1C1C;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(4) > div:first-child > img {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    padding: 10px;
+    border: 5px solid #E85D04;
+    left: 0;
+    right: 0;
+    top: 80px;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(4) > div:first-child > h3 {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    font-size: 48px;
+    font-weight: 700;
+    left: 0;
+    right: 0;
+    top: 250px;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(4) > div:nth-child(2) {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 83vw;
+    height: 3800px;
+    left: 0;
+    right: 0;
+    top: 600px;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(4) > div:nth-child(2) > div {
+    position: relative;
+    width: 452px;
+    height: 432px;
+    background-color: #1C1C1C;
+
+}
+
+body > main > section:nth-child(4) > div:nth-child(2) > div > div {
+    position: relative;
+    width: 452px;
+    height: 322px;
+    background-color: #E85D04;
+
+}
+
+body > main > section:nth-child(4) > div:nth-child(2) > div > div > img {
+    position: absolute;
+    /*width: 452px;*/
+    height: 322px;
+    aspect-ratio: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(4) > div:nth-child(2) > div:first-child > div > img ,
+body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > img ,
+body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(3) > div > img ,
+body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(7) > div > img ,
+body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(8) > div > img ,
+body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(12) > div > img {
+    width: 322px;
+    height: 452px;
+    transform: rotate(-90deg);
+    top: -65px;
+
+}
+
+body > main > section:nth-child(4) > div:nth-child(2) > div > p {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 350px;
+    margin: auto;
+
+}
+
+body > main section:nth-child(4) > div:nth-child(3) {
+    position: absolute;
+    width: 641px;
+    height: 258px;
+    background-color: #1C1C1C;
+    left: 0;
+    right: 0;
+    top: 4500px;
+    margin: auto;
+
+}
+
+body > main section:nth-child(4) > div:nth-child(3) > p {
+    position: absolute;
+    font-size: 24px;
+    font-weight: 400;
+    width: fit-content;
+    height: fit-content;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body > main section:nth-child(4) > div:nth-child(3) > p:first-child {
+    top: 40px;
+
+}
+
+body > main section:nth-child(4) > div:nth-child(3) > p:nth-child(2) {
+    top: 100px;
+
+}
+
+/* footer */
+body > footer {
+    position: relative;
+    width: 100%;
+    height: 427px;
+    background-color: #040404;
+
+}
+
+body > footer > div:first-child {
+    position: relative;
+    width: 100%;
+    height: 385px;
+    background-color: #1C1C1C;
+
+}
+
+body > footer > div > h3 {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    font-size: 40px;
+    font-weight: 500;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 30px;
+
+}
+
+body > footer > div > div {
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+body > footer > div > div > img {
+    position: absolute;
+    width: 72px;
+    height: 62px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body > footer > div > div > h4 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+
+}
+
+body > footer > div > div > p {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+body > footer > div > div:nth-child(2) > img {
+    width: 72px;
+    height: 62px;
+
+}
+
+body > footer > div > div:nth-child(2) > h4 {
+    top: 85px;
+
+}
+
+body > footer > div > div:nth-child(2) > p {
+    top: 110px;
+
+}
+
+body > footer > div > div:nth-child(3) > img {
+    width: 74px;
+    height: 76px;
+
+}
+
+body > footer   > div > div:nth-child(3) > h4 {
+    top: 85px;
+
+}
+
+body > footer > div > div:nth-child(3) > p {
+    top: 110px;
+
+}
+
+body > footer > div > div:nth-child(2) {
+    top: 120px;
+    left: 20vw;
+
+}
+
+body > footer > div > div:nth-child(3) {
+    top: 120px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body > footer > div > div:nth-child(3) {
+    top: 120px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body > footer > div > div:nth-child(4) {
+    position: absolute;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    right: 13vw;
+    top: 150px;
+
+}
+
+body > footer > div > div:nth-child(4) > a > img {
+    position: relative;
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+
+}
+
+body > footer > div:nth-child(2) {
+    position: relative;
+    width: 100%;
+    height: 42px;
+    background-color: #E85D04;
+
+}
+
+body > footer > div:nth-child(2) > img {
+    position: absolute;
+    height: 30px;
+    aspect-ratio: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+
