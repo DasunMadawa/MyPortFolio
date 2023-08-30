@@ -48,17 +48,17 @@ body > header > nav > a {
 
 }
 
-/* assignment card section */
-body > main > section {
+/* video and process section */
+body > main > section:first-child {
     position: relative;
     width: 100%;
-    height: 3280px;
+    height: 1750px;
     background-color: #040404;
     z-index: 0;
 
 }
 
-body > main > section > h1 {
+body > main > section:first-child > h1:first-child {
     position: absolute;
     display: flex;
     width: 83vw;
@@ -76,76 +76,174 @@ body > main > section > h1 {
 
 }
 
-body > main > section > div:nth-child(2){
+
+body > main > section:first-child > img {
+    position: absolute;
+    width: 205px;
+    aspect-ratio: 1/1;
+    left: 0;
+    right: 0;
+    top: 468px;
+    margin: auto;
+    z-index: 1  ;
+
+}
+
+body > main > section:first-child > video {
+    position: absolute;
+    width: 1026px;
+    height: 545px;
+    left: 0;
+    right: 0;
+    top: 298px;
+    margin: auto;
+
+}
+
+body > main > section:first-child > h3 {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    font-size: 48px;
+    font-weight: 700;
+    color: #E85D04;
+    left: 0;
+    right: 0;
+    top: 1000px;
+    margin: auto;
+    z-index: 1  ;
+
+}
+
+body > main > section:first-child > h3 {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    font-size: 48px;
+    font-weight: 700;
+    color: #E85D04;
+    left: 0;
+    right: 0;
+    top: 1000px;
+    margin: auto;
+    z-index: 1  ;
+
+}
+
+body > main > section:first-child > p {
+    position: absolute;
+    width: 960PX;
+    height: fit-content;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    right: 0;
+    top: 1150px;
+    margin: auto;
+    z-index: 1  ;
+
+}
+
+body > main > section:first-child > button {
+    position: absolute;
+    width: 309px;
+    height: 70px;
+    background-color: #1C1C1C;
+    font-size: 32px;
+    font-weight: 800;
+    color: #E85D04;
+    text-align: left;
+    padding-left: 80px;
+    box-sizing: border-box;
+    border: 1px solid #E85D04;
+    border-radius: 50px;
+    /*top: 64vh;*/
+    top: 1500px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body > main > section:first-child > button > img {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 8px;
+    right: 70px;
+
+}
+
+/* user interfaces section */
+body > main > section:nth-child(2) {
+    position: relative;
+    width: 100%;
+    height: 1350px;
+    background-color: #040404;
+    z-index: 0;
+
+}
+
+body > main > section:nth-child(2) > h3 {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    color: #E85D04;
+    font-size: 48px;
+    font-weight: 700;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+body > main > section:nth-child(2) > div:nth-child(2) {
     position: absolute;
     display: flex;
-    height: 2860px;
-    width: 83vw;
-    top: 300px;
+    width: 1587px;
+    height: 843px;
+    overflow: hidden;
     left: 0;
     right: 0;
+    top: 250px;
     margin: auto;
-    justify-content: space-between;
-    flex-wrap: wrap;
 
 }
 
-body > main > section > div:nth-child(2) > div {
+body > main > section:nth-child(2) > div:nth-child(2) > img {
     position: relative;
-    width: 452px;
-    height: 620px;
-    background-color: #1C1C1C;
-    /*margin: 24px;*/
+    width: 1587px;
+    height: 843px;
 
 }
 
-body > main > section > div:nth-child(2) > div:nth-child(11) {
+body > main > section:nth-child(2) > div:nth-child(3) {
     position: absolute;
-    width: 452px;
-    height: 620px;
-    background-color: #1C1C1C;
-    /*margin: 24px;*/
-    left: 0;
-    right: 0;
-    top: 2145px;
-    margin: auto;
-
-}
-
-body > main > section > div:nth-child(2) > div > img:first-child {
-    position: absolute;
-    width: 452px;
-    height: 302px;
-    left: 0;
-    right: 0;
-    margin: auto;
-
-}
-
-body > main > section > div:nth-child(2) > div > p {
-    position: absolute;
+    width: 1587px;
     height: fit-content;
-    text-align: center;
+    top: 620px;
     left: 0;
     right: 0;
     margin: auto;
 
-}
-
-body > main > section > div:nth-child(2) > div > p:nth-child(2) {
-    width:  300px;
-    font-size: 32px;
-    font-weight: 300;
-    text-align: center;
-    top: 371px;
 
 }
 
-body > main > section > div:nth-child(2) > div > p:nth-child(3) {
-    width: fit-content;
-    font-size: 16px;
-    font-weight: 200;
-    top: 459px;
+body > main > section:nth-child(2) > div:nth-child(3) > img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+
+
+}
+
+body > main > section:nth-child(2) > div:nth-child(3) > img:first-child {
+    left: 0;
+
+}
+
+body > main > section:nth-child(2) > div:nth-child(3) > img:nth-child(2) {
+    right: 0;
 
 }
 
@@ -308,6 +406,4 @@ body > footer > div:nth-child(2) > img {
     margin: auto;
 
 }
-
-
 

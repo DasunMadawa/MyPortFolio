@@ -14,6 +14,7 @@ body > header {
     background-color: #040404;
     width: 100%;
     height: 80px;
+    z-index: 1;
 
 }
 
@@ -54,7 +55,7 @@ body > main > section:first-child {
     background-color: #040404;
     overflow: hidden;
     position: relative;
-    z-index: -1;
+    z-index: 0;
 
 }
 
@@ -118,7 +119,7 @@ body > main > section:first-child > button:nth-child(6) {
     font-weight: 800;
     color: #E85D04;
     text-align: left;
-    padding-left: 2vw;
+    padding-left: 45px;
     width: 309px;
     height: 70px;
     box-sizing: border-box;
