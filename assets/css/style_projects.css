@@ -22,64 +22,66 @@ body > main > section > div:nth-child(2){
 
 }
 
-body > main > section > div:nth-child(2) > div {
-    position: relative;
-    width: 452px;
-    height: 620px;
-    background-color: #1C1C1C;
-    /*margin: 24px;*/
+/*body > main > section > div:nth-child(2) > div {*/
+/*    position: relative;*/
+/*    width: 452px;*/
+/*    height: 620px;*/
+/*    background-color: #1C1C1C;*/
+/*    border-radius: 20px;*/
+/*    !*margin: 24px;*!*/
 
-}
+/*}*/
 
-body > main > section > div:nth-child(2) > div:nth-child(2) {
+/*body > main > section > div:nth-child(2) > div:nth-child(2) {*/
 
-}
+/*}*/
 
-body > main > section > div:nth-child(2) > div > img:first-child {
-    position: absolute;
-    width: 452px;
-    height: 240px;
-    left: 0;
-    right: 0;
-    margin: auto;
+/*body > main > section > div:nth-child(2) > div > img:first-child {*/
+/*    position: absolute;*/
+/*    width: 452px;*/
+/*    height: 240px;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    margin: auto;*/
+/*    border-radius: 20px 20px 0 0;*/
 
-}
+/*}*/
 
-body > main > section > div:nth-child(2) > div > p {
-    position: absolute;
-    height: fit-content;
-    text-align: center;
-    left: 0;
-    right: 0;
-    margin: auto;
+/*body > main > section > div:nth-child(2) > div > p {*/
+/*    position: absolute;*/
+/*    height: fit-content;*/
+/*    text-align: center;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    margin: auto;*/
 
-}
+/*}*/
 
-body > main > section > div:nth-child(2) > div > p:nth-child(2) {
-    width:  300px;
-    font-size: 32px;
-    font-weight: 300;
-    text-align: center;
-    top: 281px;
+/*body > main > section > div:nth-child(2) > div > p:nth-child(2) {*/
+/*    width:  300px;*/
+/*    font-size: 32px;*/
+/*    font-weight: 300;*/
+/*    text-align: center;*/
+/*    top: 281px;*/
 
-}
+/*}*/
 
-body > main > section > div:nth-child(2) > div > p:nth-child(3) {
-    width: fit-content;
-    font-size: 16px;
-    font-weight: 200;
-    top: 399px;
+/*body > main > section > div:nth-child(2) > div > p:nth-child(3) {*/
+/*    width: fit-content;*/
+/*    font-size: 16px;*/
+/*    font-weight: 200;*/
+/*    top: 399px;*/
 
-}
+/*}*/
 
-body > main > section > div:nth-child(2) > div > img:nth-child(4) {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 35px;
-    margin: auto;
+/*body > main > section > div:nth-child(2) > div > img:nth-child(4) {*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    bottom: 35px;*/
+/*    margin: auto;*/
 
-}
+/*}*/
 
 body > main > section > div:nth-child(2) > div:first-child > img:nth-child(4) {
     width: 133px;

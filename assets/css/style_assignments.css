@@ -22,64 +22,311 @@ body > main > section > div:nth-child(2){
 
 }
 
-body > main > section > div:nth-child(2) > div {
+/*assignment card style*/
+.assignment-card, .assignment-card-content{
+    perspective: 1000px;
     position: relative;
     width: 452px;
     height: 620px;
-    background-color: #1C1C1C;
-    /*margin: 24px;*/
+    transition: 0.6s linear;
 
 }
 
-body > main > section > div:nth-child(2) > div:nth-child(11) {
+.assignment-card:hover .assignment-card-content{
+    transform: rotateY(180deg);
+}
+
+.assignment-card-content {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform-style: preserve-3d;
+}
+
+.assignment-card-front , .assignment-card-back {
     position: absolute;
     width: 452px;
     height: 620px;
-    background-color: #1C1C1C;
-    /*margin: 24px;*/
-    left: 0;
-    right: 0;
-    top: 2145px;
-    margin: auto;
+    border-radius: 20px;
+    transform-style: preserve-3d;
 
 }
 
-body > main > section > div:nth-child(2) > div > img:first-child {
-    position: absolute;
+.assignment-card-front {
+    transform: translateZ(1px);
+    background-color: #1C1C1C;
+}
+
+.assignment-card-back {
+    transform: rotateY(180deg);
+    background-color: #E85D04;
+
+}
+
+.assignment-card-image {
     width: 452px;
     height: 302px;
-    left: 0;
-    right: 0;
-    margin: auto;
-
+    border-radius: 20px 20px 0 0;
 }
 
-body > main > section > div:nth-child(2) > div > p {
+.assignment-card-title , .assignment-card-subtitle {
     position: absolute;
-    height: fit-content;
-    text-align: center;
     left: 0;
     right: 0;
-    margin: auto;
-
+    text-align: center;
+    color: white;
 }
 
-body > main > section > div:nth-child(2) > div > p:nth-child(2) {
-    width:  300px;
+.assignment-card-title {
+    top: 371px;
     font-size: 32px;
     font-weight: 300;
-    text-align: center;
-    top: 371px;
-
 }
 
-body > main > section > div:nth-child(2) > div > p:nth-child(3) {
-    width: fit-content;
+.assignment-card-subtitle {
+    top: 459px;
+    color: white;
     font-size: 16px;
     font-weight: 200;
-    top: 459px;
+}
+
+.hr-style {
+    width: 400px;
+    border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, #E85D04, #1C1C1C, #E85D04);
+    position: relative;
+    margin: 0;
 
 }
+
+.hr-style-1 {
+    top: 200px;
+
+}
+
+.hr-style-2 {
+    top: 268px;
+
+}
+
+.hr-style-3 {
+    top: 336px;
+
+}
+
+.hr-style-4 {
+    top: 404px;
+
+}
+
+.hr-style-5 {
+    top: 472px;
+
+}
+
+.assignment-card-title-back {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60px;
+    font-size: 32px;
+    font-weight: 300;
+    color: #1C1C1C;
+    text-align: center;
+}
+
+.assignment-card-subtitle-back {
+    position: absolute;
+    font-size: 24px;
+    font-weight: 200;
+    color: #1C1C1C;
+    text-align: center;
+    left: 30px;
+}
+
+.assignment-card-subtitle-back-1 {
+    top: 150px;
+}
+
+.assignment-card-subtitle-back-2 {
+    top: 220px;
+}
+
+.assignment-card-subtitle-back-3 {
+    top: 290px;
+}
+
+.assignment-card-subtitle-back-4 {
+    top: 360px;
+}
+
+.assignment-card-subtitle-back-5 {
+    top: 430px;
+}
+
+.assignment-card-subtitle-back-6 {
+    top: 500px;
+}
+
+.assignment-card-btn-back {
+    position: absolute;
+    width: 80px;
+    height: 28px;
+    border-radius: 8px;
+    border: 2px solid #1C1C1C;
+    color: #1C1C1C;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+}
+
+.assignment-card-code-btn-back-1 {
+    top: 150px;
+    right: 30px;
+}
+
+.assignment-card-run-btn-back-1 {
+    top: 150px;
+    right: 120px;
+}
+
+.assignment-card-code-btn-back-2 {
+    top: 220px;
+    right: 30px;
+}
+
+.assignment-card-run-btn-back-2 {
+    top: 220px;
+    right: 120px;
+}
+
+.assignment-card-code-btn-back-3 {
+    top: 290px;
+    right: 30px;
+}
+
+.assignment-card-run-btn-back-3 {
+    top: 290px;
+    right: 120px;
+}
+
+.assignment-card-code-btn-back-4 {
+    top: 360px;
+    right: 30px;
+}
+
+.assignment-card-run-btn-back-4 {
+    top: 360px;
+    right: 120px;
+}
+
+.assignment-card-code-btn-back-5 {
+    top: 430px;
+    right: 30px;
+}
+
+.assignment-card-run-btn-back-5 {
+    top: 430px;
+    right: 120px;
+}
+
+.assignment-card-code-btn-back-6 {
+    top: 500px;
+    right: 30px;
+}
+
+.assignment-card-run-btn-back-6 {
+    top: 500px;
+    right: 120px;
+}
+
+.assignment-card-btn-back > a {
+    position: relative;
+    /*border: 1px solid white;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    color: #1C1C1C;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+body > main > section > div:nth-child(2) > div:nth-child(12) {
+    position: relative;
+    width: 452px;
+    height: 620px;
+    background-color: transparent;
+
+}
+
+/*body > main > section > div:nth-child(2) > div {*/
+/*    position: relative;*/
+/*    width: 452px;*/
+/*    height: 620px;*/
+/*    background-color: #1C1C1C;*/
+/*    border-radius: 20px;*/
+/*    !*margin: 24px;*!*/
+
+/*}*/
+
+/*body > main > section > div:nth-child(2) > div:nth-child(11) {*/
+/*    position: absolute;*/
+/*    width: 452px;*/
+/*    height: 620px;*/
+/*    background-color: #1C1C1C;*/
+/*    !*margin: 24px;*!*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    top: 2145px;*/
+/*    margin: auto;*/
+
+/*}*/
+
+
+/*body > main > section > div:nth-child(2) > div > img:first-child {*/
+/*    position: absolute;*/
+/*    width: 452px;*/
+/*    height: 302px;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    margin: auto;*/
+/*    border-radius: 20px 20px 0 0;*/
+
+/*}*/
+
+/*body > main > section > div:nth-child(2) > div > p {*/
+/*    position: absolute;*/
+/*    height: fit-content;*/
+/*    text-align: center;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    margin: auto;*/
+
+/*}*/
+
+/*body > main > section > div:nth-child(2) > div > p:nth-child(2) {*/
+/*    width:  300px;*/
+/*    font-size: 32px;*/
+/*    font-weight: 300;*/
+/*    text-align: center;*/
+/*    top: 371px;*/
+
+/*}*/
+
+/*body > main > section > div:nth-child(2) > div > p:nth-child(3) {*/
+/*    width: fit-content;*/
+/*    font-size: 16px;*/
+/*    font-weight: 200;*/
+/*    top: 459px;*/
+
+/*}*/
 
 
 
