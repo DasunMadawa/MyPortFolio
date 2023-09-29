@@ -1,3 +1,8 @@
+#about-me {
+    color: #E85D04;
+    border-bottom: 3px solid #E85D04;
+}
+
 /* about me section */
 body > main > section:first-child {
     position: relative;

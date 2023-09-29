@@ -1,3 +1,8 @@
+#assignments {
+    color: #E85D04;
+    border-bottom: 3px solid #E85D04;
+}
+
 /* assignment card section */
 body > main > section {
     position: relative;
@@ -97,8 +102,10 @@ body > main > section > div:nth-child(2){
     border: 0;
     height: 2px;
     background-image: -webkit-linear-gradient(left, #E85D04, #1C1C1C, #E85D04);
-    position: relative;
-    margin: 0;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
 
 }
 
@@ -113,17 +120,17 @@ body > main > section > div:nth-child(2){
 }
 
 .hr-style-3 {
-    top: 336px;
+    top: 338px;
 
 }
 
 .hr-style-4 {
-    top: 404px;
+    top: 408px;
 
 }
 
 .hr-style-5 {
-    top: 472px;
+    top: 478px;
 
 }
 
