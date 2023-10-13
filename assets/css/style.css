@@ -353,11 +353,11 @@ body > footer > div:nth-child(2) > img {
 
 /*project card style*/
 .project-card, .card-content{
-    perspective: 1000px;
+    /*perspective: 1000px;*/
     position: relative;
     width: 452px;
     height: 620px;
-    transition: 0.6s linear;
+    transition: 1s linear;
 
 }
 
@@ -395,6 +395,7 @@ body > footer > div:nth-child(2) > img {
 }
 
 .card-image {
+    transform: translateZ(50px);
     width: 452px;
     height: 240px;
     border-radius: 10px 10px 0 0;
@@ -409,12 +410,14 @@ body > footer > div:nth-child(2) > img {
 }
 
 .card-title {
+    transform: translateZ(100px);
     top: 281px;
     font-size: 32px;
 }
 
 
 .card-subtitle {
+    transform: translateZ(80px);
     top: 399px;
     color: white;
     font-size: 16px;
@@ -428,6 +431,7 @@ body > footer > div:nth-child(2) > img {
     bottom: 35px;
     width: 133px;
     height: 126px;
+    transform: translateZ(70px);
 
 }
 
@@ -437,8 +441,9 @@ body > footer > div:nth-child(2) > img {
     right: 0;
     top: 240px;
     font-size: 32px;
-    color: #1C1C1C;
+    color: white;
     text-align: center;
+    transform: translateZ(80px);
 }
 
 .card-btn-back {
@@ -451,11 +456,13 @@ body > footer > div:nth-child(2) > img {
     height: 50px;
     font-size: 24px;
     border-radius: 10px;
-    border: 2px solid #1C1C1C;
-    color: #1C1C1C;
+    border: 2px solid white;
+    color: white;
     background-color: transparent;
     cursor: pointer;
     padding: 0;
+    transform: translateZ(100px);
+
 }
 
 .card-btn-back > a {
@@ -466,7 +473,7 @@ body > footer > div:nth-child(2) > img {
     justify-content: center;
     width: 100%;
     height: 100%;
-    color: #1C1C1C;
+    color: white;
     border-radius: 10px;
     box-sizing: border-box;
 }
@@ -475,11 +482,18 @@ body > footer > div:nth-child(2) > img {
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: #040404;
+    /*background-color: transparent;*/
     z-index: 10;
 }
+.pre-loader-bg {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(40px);
+    transition-duration: 1.5s;
+}
 
-.pre-loader > div {
+.pre-loader > div:nth-child(2) {
     position: absolute;
     width: 100px;
     aspect-ratio: 1/1;
@@ -491,6 +505,7 @@ body > footer > div:nth-child(2) > img {
     top: 0;
     bottom: 0;
     margin: auto;
+    transition-duration: 1.5s;
 
 }
 

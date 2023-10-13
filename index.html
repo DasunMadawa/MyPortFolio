@@ -19,6 +19,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
           integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/style_home.css">
@@ -26,6 +32,7 @@
 
 <body>
 <div class="pre-loader" id="pre-load">
+    <div class="pre-loader-bg"></div>
     <div></div>
 </div>
 
@@ -46,7 +53,7 @@
     <!--        Hero Section        -->
     <section>
         <div>
-            <h3>Welcome !</h3>
+            <h3 class="animate__animated animate__bounce">Welcome !</h3>
             <h1>I Am</h1>
             <h1>Dasun Madawa</h1>
             <h3>Software Engineer Undergraduate</h3>
@@ -114,7 +121,7 @@
 
     <!--          Education        -->
     <section>
-        <div>
+        <div data-aos="fade-up">
             <img src="assets/img/icon/svg/education-icon.svg" alt="education icon">
             <h3>Education</h3>
 
@@ -326,7 +333,13 @@
 
 
 <script src="assets/lib/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="assets/js/script_home.js"></script>
+
+<script>
+    AOS.init();
+</script>
+
 </body>
 
 </html>
