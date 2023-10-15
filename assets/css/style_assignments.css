@@ -33,7 +33,7 @@ body > main > section > div:nth-child(2){
     position: relative;
     width: 452px;
     height: 620px;
-    transition: 1s linear;
+    transition: 0.8s linear;
 
 }
 
@@ -193,7 +193,19 @@ body > main > section > div:nth-child(2){
     background-color: transparent;
     cursor: pointer;
     padding: 0;
+    transition-duration: 0.2s;
     transform: translateZ(100px);
+}
+
+.assignment-card-btn-back:hover {
+    box-shadow: #FFFFFF 0px 0px 29px 0px;
+    background-color: #FFFFFF;
+    color: #1C1C1C;
+    transform: translateY(-2px);
+}
+
+.assignment-card-btn-back:hover > a {
+    color: #1C1C1C;
 }
 
 .assignment-card-code-btn-back-1 {

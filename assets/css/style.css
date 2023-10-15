@@ -357,7 +357,7 @@ body > footer > div:nth-child(2) > img {
     position: relative;
     width: 452px;
     height: 620px;
-    transition: 1s linear;
+    transition: 0.8s linear;
 
 }
 
@@ -462,8 +462,29 @@ body > footer > div:nth-child(2) > img {
     cursor: pointer;
     padding: 0;
     transform: translateZ(100px);
+    transition-duration: 0.2s;
 
 }
+
+.card-btn-back:hover {
+    box-shadow: #FFFFFF 0px 0px 29px 0px;
+    background-color: #FFFFFF;
+    color: #1C1C1C;
+    transform: translateY(-5px);
+}
+
+.card-btn-back:hover > a {
+    color: #1C1C1C;
+}
+
+/*.card-btn-back:hover {*/
+/*    color: #1C1C1C;*/
+/*    border-color: #1C1C1C;*/
+/*}*/
+
+/*.card-btn-back:hover > a {*/
+/*    color: #1C1C1C;*/
+/*}*/
 
 .card-btn-back > a {
     position: relative;
@@ -509,7 +530,18 @@ body > footer > div:nth-child(2) > img {
 
 }
 
+@media all and (max-width: 1400px){
+    body > footer > div > div:nth-child(2) {
+        top: 150px;
+        left: 15vw;
+    }
 
+    body > footer > div > div:nth-child(4) {
+        top: 150px;
+        right: 8vw;
+    }
+
+}
 
 
 
