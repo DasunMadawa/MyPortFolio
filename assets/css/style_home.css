@@ -1453,6 +1453,48 @@ body > main > section:nth-child(5) > div:nth-child(2) > div > div:nth-child(3) >
 
 }
 
+@media all and (max-width: 425px) {
+
+
+    /*education*/
+    body > main > section:nth-child(3) {
+        height: 730px;
+
+    }
+
+    /*job roles*/
+    body > main > section:nth-child(4) {
+        height: 1775px;
+
+    }
+
+    body > main > section:nth-child(4) > h3 {
+        font-size: 32px;
+
+    }
+
+    body > main > section:nth-child(4) > div:nth-child(2) {
+        top: 120px;
+
+    }
+
+    /*recent projects*/
+    body > main > section:nth-child(5) {
+        height: 680px;
+
+    }
+
+    body > main > section:nth-child(5) > h3 {
+        font-size: 32px;
+
+    }
+    body > main > section:nth-child(5) > div:nth-child(2) > div {
+        top: 100px;
+        bottom: unset;
+    }
+
+}
+
 @media all and (max-width: 395px) {
     /*hero section*/
     /*body > main > section:first-child {*/
@@ -1511,10 +1553,10 @@ body > main > section:nth-child(5) > div:nth-child(2) > div > div:nth-child(3) >
     }
 
     /*education*/
-    body > main > section:nth-child(3) {
-        height: 730px;
+    /*body > main > section:nth-child(3) {*/
+    /*    height: 730px;*/
 
-    }
+    /*}*/
 
     body > main > section:nth-child(3) > div {
         width: 300px;
@@ -1587,22 +1629,6 @@ body > main > section:nth-child(5) > div:nth-child(2) > div > div:nth-child(3) >
         margin: 10px 0 10px 0;
 
     }
-
-    /*recent projects*/
-    body > main > section:nth-child(5) {
-        height: 680px;
-
-    }
-
-    body > main > section:nth-child(5) > h3 {
-        font-size: 36px;
-
-    }
-    body > main > section:nth-child(5) > div:nth-child(2) > div {
-        top: 100px;
-        bottom: unset;
-    }
-
 
     @media all and (max-width: 360px) {
         #recent-projects-backward-2 {
