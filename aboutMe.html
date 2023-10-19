@@ -24,14 +24,21 @@
 
 <header>
     <a href="index.html"><img src="assets/img/logo/logo.png"></a>
-
-    <nav>
+    <nav id="navbar">
         <a href="index.html" id="home">Home</a>
         <a href="aboutMe.html" id="about-me">About</a>
         <a href="projects.html" id="projects">Projects</a>
         <a href="assignments.html" id="assignments">Assignments</a>
         <a href="gallery.html" id="gallery">Gallery</a>
     </nav>
+
+    <div id="menu-icon" class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+
+    <div id="menu-icon-bg"></div>
+
 </header>
 <main>
 
@@ -316,16 +323,16 @@
 
         <div class="social-icons">
             <a href="https://github.com/DasunMadawa" target="_blank">
-                <i class="fa-brands fa-square-github"></i>
+                <i class="fa-brands fa-github"></i>
             </a>
             <a href="https://www.linkedin.com/in/dasun-madawa-41255927b/" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
             </a>
             <a href="https://www.facebook.com/dasun.pabasara.104" target="_blank">
-                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-facebook-f"></i>
             </a>
             <a href="https://wa.me/+94716177681" target="_blank">
-                <i class="fa-brands fa-square-whatsapp"></i>
+                <i class="fa-brands fa-whatsapp"></i>
             </a>
         </div>
 
@@ -335,6 +342,14 @@
         <img src="assets/img/logo/logo.png" alt="logo icon">
     </div>
 </footer>
+
+<script src="assets/lib/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="assets/js/script_home.js"></script>
+
+<script>
+    AOS.init();
+</script>
 
 </body>
 </html>
