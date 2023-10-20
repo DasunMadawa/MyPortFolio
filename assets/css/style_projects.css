@@ -22,20 +22,16 @@ body > main > section > div:nth-child(2){
     left: 0;
     right: 0;
     margin: auto;
-    justify-content: space-between;
+    justify-content: center;
+    align-content: flex-start;
     flex-wrap: wrap;
 
 }
 
-/*body > main > section > div:nth-child(2) > div {*/
-/*    position: relative;*/
-/*    width: 452px;*/
-/*    height: 620px;*/
-/*    background-color: #1C1C1C;*/
-/*    border-radius: 20px;*/
-/*    !*margin: 24px;*!*/
+body > main > section > div:nth-child(2) > div {
+    margin: 30px;
 
-/*}*/
+}
 
 /*body > main > section > div:nth-child(2) > div:nth-child(2) {*/
 
@@ -88,24 +84,80 @@ body > main > section > div:nth-child(2){
 
 /*}*/
 
-body > main > section > div:nth-child(2) > div:first-child > img:nth-child(4) {
+body > main > section > div:nth-child(2) > div:first-child > div:first-child > div:first-child > img:nth-child(4) {
     width: 133px;
     height: 126px;
 
 }
 
-body > main > section > div:nth-child(2) > div:nth-child(2) > img:nth-child(4) {
+body > main > section > div:nth-child(2) > div:nth-child(2) > div:first-child > div:first-child > img:nth-child(4) {
     width: 107px;
     height: 108px;
 
 }
 
-body > main > section > div:nth-child(2) > div:nth-child(3) > img:nth-child(4) {
+body > main > section > div:nth-child(2) > div:nth-child(3) > div:first-child > div:first-child > img:nth-child(4) {
     width: 100px;
     height: 100px;
 
 }
 
+@media all and (max-width: 1366px){
+    body > main > section > div:nth-child(2){
+        transform: scale(0.8);
+        top: 150px;
+
+    }
+
+    body > main > section {
+        height: 1500px;
+
+    }
+}
+
+@media all and (max-width: 1233px){
+    body > main > section {
+        height: 2600px;
+
+    }
+}
+
+@media all and (max-width: 1000px){
+    body > main > section {
+        height: 1150px;
+
+    }
+}
+
+@media all and (max-width: 845px){
+    body > main > section {
+        height: 1850px;
+
+    }
+
+    body > main > section > h1 {
+        font-size: 40px!important;
+
+    }
+}
+
+@media all and (max-width: 425px){
+    body > main > section {
+        height: 1800px;
+
+    }
+
+    body > main > section > h1 {
+        font-size: 32px!important;
+        height: 66px!important;
+
+    }
+
+    body > main > section > div {
+        top: 100px!important;
+
+    }
+}
 
 
 

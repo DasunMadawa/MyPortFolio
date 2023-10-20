@@ -871,7 +871,7 @@ body > main > section:nth-child(5) > div:nth-child(2) > div > div:nth-child(3) >
 
     /*about me*/
     body > main > section:nth-child(2) {
-        height: 740px;
+        height: 680px;
     }
 
     /*body > main > section:nth-child(2) > h3:nth-child(2) ,*/
@@ -1457,8 +1457,59 @@ body > main > section:nth-child(5) > div:nth-child(2) > div > div:nth-child(3) >
 
 
     /*education*/
-    body > main > section:nth-child(3) {
-        height: 730px;
+    /*education*/
+    /*body > main > section:nth-child(3) {*/
+    /*    height: 730px;*/
+
+    /*}*/
+
+    body > main > section:nth-child(3) > div {
+        width: 300px;
+        height: 640px;
+
+    }
+
+    body > main > section:nth-child(3) > div > img {
+        left: 0;
+        right: 0;
+        top: 59px;
+        margin: auto;
+
+    }
+
+    body > main > section:nth-child(3) > div > h3 {
+        width: fit-content;
+        left: 0;
+        right: 0;
+        top: 200px;
+        margin: auto;
+
+    }
+
+    body > main > section:nth-child(3) > div > div {
+        top: 300px;
+        left: 0;
+        right: 0;
+        margin: 0 auto 0 auto;
+
+    }
+
+    body > main > section:nth-child(3) > div > div > div {
+        width: 271px;
+
+    }
+
+    body > main > section:nth-child(3) > div > div > div > p {
+        left: 36px;
+    }
+
+    body > main > section:nth-child(3) > div > div > div > p:nth-child(2) {
+        font-size: 16px;
+
+    }
+
+    body > main > section:nth-child(3) > div > div > div > p:nth-child(3) {
+        font-size: 14px;
 
     }
 
@@ -1552,61 +1603,61 @@ body > main > section:nth-child(5) > div:nth-child(2) > div > div:nth-child(3) >
         width: 30px;
     }
 
-    /*education*/
-    /*body > main > section:nth-child(3) {*/
-    /*    height: 730px;*/
+    /*!*education*!*/
+    /*!*body > main > section:nth-child(3) {*!*/
+    /*!*    height: 730px;*!*/
+
+    /*!*}*!*/
+
+    /*body > main > section:nth-child(3) > div {*/
+    /*    width: 300px;*/
+    /*    height: 640px;*/
 
     /*}*/
 
-    body > main > section:nth-child(3) > div {
-        width: 300px;
-        height: 640px;
+    /*body > main > section:nth-child(3) > div > img {*/
+    /*    left: 0;*/
+    /*    right: 0;*/
+    /*    top: 59px;*/
+    /*    margin: auto;*/
 
-    }
+    /*}*/
 
-    body > main > section:nth-child(3) > div > img {
-        left: 0;
-        right: 0;
-        top: 59px;
-        margin: auto;
+    /*body > main > section:nth-child(3) > div > h3 {*/
+    /*    width: fit-content;*/
+    /*    left: 0;*/
+    /*    right: 0;*/
+    /*    top: 200px;*/
+    /*    margin: auto;*/
 
-    }
+    /*}*/
 
-    body > main > section:nth-child(3) > div > h3 {
-        width: fit-content;
-        left: 0;
-        right: 0;
-        top: 200px;
-        margin: auto;
+    /*body > main > section:nth-child(3) > div > div {*/
+    /*    top: 300px;*/
+    /*    left: 0;*/
+    /*    right: 0;*/
+    /*    margin: 0 auto 0 auto;*/
 
-    }
+    /*}*/
 
-    body > main > section:nth-child(3) > div > div {
-        top: 300px;
-        left: 0;
-        right: 0;
-        margin: 0 auto 0 auto;
+    /*body > main > section:nth-child(3) > div > div > div {*/
+    /*    width: 271px;*/
 
-    }
+    /*}*/
 
-    body > main > section:nth-child(3) > div > div > div {
-        width: 271px;
+    /*body > main > section:nth-child(3) > div > div > div > p {*/
+    /*    left: 36px;*/
+    /*}*/
 
-    }
+    /*body > main > section:nth-child(3) > div > div > div > p:nth-child(2) {*/
+    /*    font-size: 16px;*/
 
-    body > main > section:nth-child(3) > div > div > div > p {
-        left: 36px;
-    }
+    /*}*/
 
-    body > main > section:nth-child(3) > div > div > div > p:nth-child(2) {
-        font-size: 16px;
+    /*body > main > section:nth-child(3) > div > div > div > p:nth-child(3) {*/
+    /*    font-size: 14px;*/
 
-    }
-
-    body > main > section:nth-child(3) > div > div > div > p:nth-child(3) {
-        font-size: 14px;
-
-    }
+    /*}*/
 
     /*job roles*/
     body > main > section:nth-child(4) {
