@@ -360,19 +360,19 @@ body > main > section > div:nth-child(2) > div:nth-child(12) {
 
     .assignment-card-image {
         width: 291px;
-        height: 155px;
+        height: 200px;
     }
 
     .assignment-card-title {
         transform: translateZ(100px);
-        top: 187px;
+        top: 245px;
         font-size: 20px;
     }
 
 
     .assignment-card-subtitle {
         transform: translateZ(80px);
-        top: 257px;
+        top: 310px;
         color: white;
         font-size: 14px;
     }
