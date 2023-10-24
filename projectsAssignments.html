@@ -14,7 +14,12 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
           integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-          crossorigin="anonymous" referrerpolicy="no-referrer" />
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/style_projects_assignments.css">
@@ -44,11 +49,12 @@
     <!--    video and process   -->
     <section>
         <h1 class="page-header">Projects / Assignments</h1>
-        <img src="assets/img/icon/svg/play-icon.svg" alt="play button">
+        <img id="play-btn" src="assets/img/icon/svg/play-icon.svg" alt="play button">
 
         <video
+                id="video-player"
+                controls = controls;
                 poster="assets/img/harbormaster-front-ui.png"
-                controls
         >
             <source src="assets/video/project-harbormaster-short.mp4" type="video/mp4">
         </video>
@@ -75,41 +81,49 @@
     <section>
         <h3>User Interfaces</h3>
 
-        <div>
-            <img src="assets/img/harbormaster-ui/ui-1.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-2.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-3.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-4.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-5.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-6.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-7.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-8.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-9.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-10.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-11.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-12.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-13.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-13.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-14.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-15.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-16.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-17.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-18.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-19.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-20.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-21.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-22.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-23.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-24.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-25.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-26.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-27.png" alt="ui">
-            <img src="assets/img/harbormaster-ui/ui-28.png" alt="ui">
-        </div>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
 
-        <div>
-            <img src="assets/img/icon/svg/arrow-backward-icon.svg" alt="arrow backward">
-            <img src="assets/img/icon/svg/arrow-forward-icon.svg" alt="arrow forward">
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
         </div>
 
     </section>
@@ -156,11 +170,38 @@
 
 
 <script src="assets/lib/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="assets/js/script_home.js"></script>
+<script src="assets/js/script_project_inner.js"></script>
 
 <script>
     AOS.init();
+
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: false,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+
+
+    });
+
+
 </script>
 
 </body>
