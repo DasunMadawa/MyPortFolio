@@ -57,23 +57,23 @@ $("#recent-projects-backward-2").on("click", () => {
 
 });
 
-$("#menu-icon > i:first-child").on("click", () => {
-    $("#menu-icon-bg").css({display: "block"});
-    $("#navbar").css({display: "flex"});
-
-    $("#menu-icon > i:first-child").css({display: "none"});
-    $("#menu-icon > i:nth-child(2)").css({display: "block"});
-
-});
-
-$("#menu-icon > i:nth-child(2)").on("click", () => {
-    $("#menu-icon-bg").css({display: "none"});
-    $("#navbar").css({display: "none"});
-
-    $("#menu-icon > i:first-child").css({display: "block"});
-    $("#menu-icon > i:nth-child(2)").css({display: "none"});
-
-});
+// $("#menu-icon > i:first-child").on("click", () => {
+//     $("#menu-icon-bg").css({display: "block"});
+//     $("#navbar").css({display: "flex"});
+//
+//     $("#menu-icon > i:first-child").css({display: "none"});
+//     $("#menu-icon > i:nth-child(2)").css({display: "block"});
+//
+// });
+//
+// $("#menu-icon > i:nth-child(2)").on("click", () => {
+//     $("#menu-icon-bg").css({display: "none"});
+//     $("#navbar").css({display: "none"});
+//
+//     $("#menu-icon > i:first-child").css({display: "block"});
+//     $("#menu-icon > i:nth-child(2)").css({display: "none"});
+//
+// });
 
 
 // let nav_list = $("#navbar ");

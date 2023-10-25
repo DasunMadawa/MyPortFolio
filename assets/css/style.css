@@ -36,6 +36,7 @@ body > header > a:first-child > img {
 }
 
 body > header > nav {
+    display: block;
     height: fit-content;
     width: fit-content;
     position: absolute;
@@ -565,6 +566,7 @@ body > footer > div:nth-child(2) > img {
     color: white;
     font-size: 35px;
     cursor: pointer;
+    transition: 0.2s linear;
 
 }
 
@@ -577,6 +579,11 @@ body > footer > div:nth-child(2) > img {
     color: #E85D04;
     font-size: 35px;
     transform: scale(1.1);
+
+}
+
+.menu-icon:hover > i:nth-child(2) {
+    transform: scale(1.1) rotate(90deg);
 
 }
 
@@ -680,6 +687,18 @@ body > footer > div:nth-child(2) > img {
 }
 
 @media all and (max-width: 960px){
+    .hide {
+        display: none!important;
+    }
+
+    .show {
+        display: block!important;
+    }
+
+    .show-flex {
+        display: flex!important;
+    }
+
     .menu-icon {
         position: fixed;
         display: flex;
@@ -694,7 +713,7 @@ body > footer > div:nth-child(2) > img {
         left: 0;
         right: 0;
         top: 250px;
-        transition: 2s linear;
+        /*transition: 2s linear;*/
         z-index: 1;
 
     }
@@ -706,7 +725,7 @@ body > footer > div:nth-child(2) > img {
 
     }
 
-    #menu-icon-bg {
+    #menu-bg {
         position: fixed;
         display: none;
         top: 80px;
