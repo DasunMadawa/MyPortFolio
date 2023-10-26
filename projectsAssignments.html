@@ -41,20 +41,25 @@
         <i class="fa-solid fa-xmark"></i>
     </div>
 
-    <div id="menu-icon-bg"></div>
+    <div id="menu-bg" class="menu-bg"></div>
 
 </header>
 
 <main>
     <!--    video and process   -->
     <section>
-        <h1 class="page-header">Projects / Assignments</h1>
-        <img id="play-btn" src="assets/img/icon/svg/play-icon.svg" alt="play button">
+        <h1 class="page-header">Projects</h1>
+        <!--        <img id="play-btn" src="assets/img/icon/svg/play-icon.svg" alt="play button">-->
+        <div id="play-btn">
+            <div id="play-btn-bg">
+                <div id="inner-circle"></div>
+            </div>
+            <i id="play-icon" class="fa-solid fa-play"></i>
+        </div>
 
-        <video
-                id="video-player"
-                controls = controls;
-                poster="assets/img/harbormaster-front-ui.png"
+        <video id="video-player"
+               poster="assets/img/harbormaster-front-ui.png"
+               controlsList="nodownload"
         >
             <source src="assets/video/project-harbormaster-short.mp4" type="video/mp4">
         </video>
@@ -71,9 +76,11 @@
             Blanditiis id inventore sequi.
         </p>
 
-        <button>
-            Code
-            <img src="assets/img/icon/svg/code-icon.svg" alt="code icon">
+        <button id="code-btn" type="button">
+            <a href="" download>
+                Code
+                <i class="fa-solid fa-code"></i>
+            </a>
         </button>
     </section>
 

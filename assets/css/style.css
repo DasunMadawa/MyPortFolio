@@ -556,7 +556,7 @@ body > footer > div:nth-child(2) > img {
     align-items: center;
     width: 35px;
     height: 35px;
-    top: 15px;
+    top: 22px;
     right: 8.2vw;
     z-index: 10;
 
@@ -582,7 +582,7 @@ body > footer > div:nth-child(2) > img {
 
 }
 
-.menu-icon:hover > i:nth-child(2) {
+.menu-icon:hover > i:nth-child(2):hover {
     transform: scale(1.1) rotate(90deg);
 
 }

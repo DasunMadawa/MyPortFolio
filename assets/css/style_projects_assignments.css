@@ -9,25 +9,85 @@ body > main > section:first-child {
 }
 
 
-body > main > section:first-child > img {
+#play-btn {
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    /*border: 5px solid red;*/
+    cursor: pointer;
+    border-radius: 150px;
+    left: 0;
+    right: 0;
+    top: 470px;
+    margin: auto;
+    z-index: 1;
+
+
+}
+
+body > main > section:first-child > div > div {
     position: absolute;
     width: 205px;
     aspect-ratio: 1/1;
     left: 0;
     right: 0;
-    top: 468px;
+    top: 0;
+    bottom: 0;
     margin: auto;
     cursor: pointer;
     z-index: 1;
-    /*border: 1px solid red;*/
     border-radius: 150px;
+    transition: 0.3s linear;
+    background: conic-gradient(transparent 90deg , #E85D04 0deg);
 
 }
 
-body > main > section:first-child > img:hover {
-    transform: scale(1.1);
+#inner-circle {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    background: #1C1C1C;
+    border-radius: 150px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transition: 0.3s linear;
 
 }
+
+body > main > section:first-child > div:hover > div {
+    transform: rotate(180deg);
+
+}
+
+body > main > section:first-child > div:hover > div > #inner-circle {
+    background-color: #E85D04;
+    box-shadow: #E85D04 0px 0px 29px 0px;
+
+}
+
+body > main > section:first-child > div:hover > #play-icon {
+    color: #FFFFFF;
+
+}
+
+#play-icon {
+    position: absolute;
+    font-size: 82px;
+    color: #E85D04;
+    left: 0;
+    right: -15px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    z-index: 1;
+
+}
+
 
 body > main > section:first-child > video {
     position: absolute;
@@ -63,39 +123,51 @@ body > main > section:first-child > p {
     font-weight: 400;
     left: 0;
     right: 0;
-    top: 1150px;
+    top: 1180px;
     margin: auto;
     z-index: 1;
 
 }
 
-body > main > section:first-child > button {
+#code-btn {
     position: absolute;
-    width: 309px;
-    height: 70px;
-    background-color: #1C1C1C;
-    font-size: 32px;
-    font-weight: 800;
     color: #E85D04;
     text-align: left;
-    padding-left: 80px;
+    padding: 0;
+    width: 200px;
+    height: 70px;
     box-sizing: border-box;
+    background-color: #1C1C1C;
     border: 1px solid #E85D04;
-    border-radius: 50px;
-    /*top: 64vh;*/
+    border-radius: 10px;
     top: 1500px;
     left: 0;
     right: 0;
     margin: auto;
+    transition: 0.5s;
 
 }
 
-body > main > section:first-child > button > img {
-    position: absolute;
-    width: 52px;
-    height: 52px;
-    top: 8px;
-    right: 70px;
+#code-btn > a {
+    display: flex;
+    font-size: 32px;
+    font-weight: 800;
+    color: inherit;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 20px;
+    height: 100%;
+    /*width: 100%;*/
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+#code-btn:hover {
+    box-shadow: #E85D04 0px 0px 29px 0px;
+    background-color: #E85D04;
+    color: #1C1C1C;
 
 }
 
@@ -291,6 +363,13 @@ body > main > section:nth-child(2) > h3 {
     background: var(--swiper-scrollbar-drag-bg-color, rgb(232, 93, 4));
 }
 
+.show-play_btn {
+    display: block;
+}
+
+.hide_play_btn {
+    display: none;
+}
 
 
 /*body > main > section:nth-child(2) > div:nth-child(2) {*/
@@ -332,5 +411,347 @@ body > main > section:nth-child(2) > h3 {
 
 
 /*}*/
+
+@media all and (max-width: 1800px) {
+    body > main > section:nth-child(2) {
+        aspect-ratio: 1648/1300;
+        height: unset;
+    }
+
+    .swiper {
+        width: 83vw;
+        height: unset;
+        aspect-ratio: 1587/843;
+    }
+
+}
+
+@media all and (max-width: 1500px) {
+    .swiper {
+        top: 200px;
+    }
+
+}
+
+@media all and (max-width: 1366px) {
+    /* video and process section */
+    body > main > section:first-child {
+        height: 1450px;
+
+    }
+
+    body > main > section:first-child > h1 {
+        height: 60px;
+        font-size: 36px;
+        top: 90px;
+
+    }
+
+
+    #play-btn {
+        top: 300px;
+        transform: scale(0.6);
+
+    }
+
+    body > main > section:first-child > video {
+        width: 800px;
+        height: unset;
+        aspect-ratio: 1026/545;
+        top: 190px;
+
+    }
+
+    body > main > section:first-child > h3 {
+        font-size: 48px;
+        top: 750px;
+
+    }
+
+
+    body > main > section:first-child > p {
+        width: 70vw;
+        font-size: 22px;
+        top: 920px;
+
+    }
+
+    #code-btn {
+        top: 1250px;
+    }
+
+    /*ui section*/
+    body > main > section:nth-child(2) {
+        aspect-ratio: 1648/1100;
+    }
+
+    .swiper {
+        top: 16.6vw;
+        width: 70vw;
+        height: unset;
+        aspect-ratio: 1587/843;
+    }
+
+}
+
+@media all and (max-width: 1000px) {
+    /* video and process section */
+    body > main > section:first-child {
+        height: 1194px;
+
+    }
+
+    body > main > section:first-child > h1 {
+        top: 110px;
+
+    }
+
+
+    #play-btn {
+        top: 325px;
+
+    }
+
+    body > main > section:first-child > video {
+        width: 700px;
+        top: 240px;
+
+    }
+
+    body > main > section:first-child > h3 {
+        font-size: 40px;
+        top: 680px;
+
+    }
+
+
+    body > main > section:first-child > p {
+        width: 70vw;
+        font-size: 22px;
+        top: 780px;
+
+    }
+
+    #code-btn {
+        top: 1070px;
+    }
+
+    /*ui section*/
+    body > main > section:nth-child(2) > h3 {
+        top: 20px;
+        font-size: 40px;
+
+    }
+
+}
+
+@media all and (max-width: 852px) {
+    /* video and process section */
+    #play-btn {
+        top: 300px;
+
+    }
+
+    body > main > section:first-child > video {
+        width: 600px;
+
+    }
+
+    body > main > section:first-child > h3 {
+        top: 630px;
+
+    }
+
+
+    body > main > section:first-child > p {
+        top: 730px;
+
+    }
+
+
+}
+
+@media all and (max-width: 740px) {
+    /* video and process section */
+    body > main > section:first-child {
+        height: 1050px;
+    }
+
+    body > main > section:first-child > h1 {
+        font-size: 30px;
+        top: 100px;
+    }
+
+
+    #play-btn {
+        transform: scale(0.4);
+        top: 260px;
+    }
+
+    body > main > section:first-child > video {
+        width: 450px;
+
+    }
+
+    body > main > section:first-child > h3 {
+        font-size: 30px;
+        top: 540px;
+    }
+
+
+    body > main > section:first-child > p {
+        font-size: 20px;
+        top: 640px;
+    }
+
+    #code-btn {
+        width: 135px;
+        height: 55px;
+        top: 950px;
+
+    }
+
+    #code-btn > a {
+        font-size: 22px;
+        top: 950px;
+        padding: 0;
+        justify-content: space-evenly;
+
+    }
+
+    /*ui section*/
+    body > main > section:nth-child(2) > h3 {
+        font-size: 30px;
+
+    }
+
+
+}
+
+@media all and (max-width: 560px) {
+    /* video and process section */
+    body > main > section:first-child {
+        height: 800px;
+    }
+
+    body > main > section:first-child > h1 {
+        font-size: 24px;
+        top: 100px;
+    }
+
+    #play-btn {
+        transform: scale(0.3);
+        top: 180px;
+    }
+
+    body > main > section:first-child > video {
+        width: 300px;
+        top: 200px;
+
+    }
+
+    body > main > section:first-child > h3 {
+        top: 400px;
+    }
+
+
+    body > main > section:first-child > p {
+        font-size: 16px;
+        top: 480px;
+    }
+
+    #code-btn {
+        width: 100px;
+        height: 45px;
+        top: 720px;
+
+    }
+
+    #code-btn > a {
+        font-size: 16px;
+
+    }
+
+    /*ui section*/
+    body > main > section:nth-child(2) {
+        aspect-ratio: 1648/1200;
+
+    }
+
+    body > main > section:nth-child(2) > h3 {
+        top: 0;
+
+    }
+
+    .swiper {
+        top: 22vw;
+
+    }
+
+
+}
+
+@media all and (max-width: 484px) {
+    /* video and process section */
+    body > main > section:first-child > p {
+        font-size: 14px;
+        top: 460px;
+    }
+
+}
+
+@media all and (max-width: 380px) {
+    /* video and process section */
+    body > main > section:first-child {
+        height: 800px;
+    }
+
+    #play-btn {
+        top: 170px;
+    }
+
+    body > main > section:first-child > video {
+        width: 260px;
+        top: 200px;
+
+    }
+
+    body > main > section:first-child > h3 {
+        top: 370px;
+    }
+
+
+    body > main > section:first-child > p {
+        top: 440px;
+
+    }
+
+    #code-btn {
+        width: 100px;
+        height: 45px;
+        top: 720px;
+
+    }
+
+    #code-btn > a {
+        font-size: 16px;
+
+    }
+
+    /*ui section*/
+    body > main > section:nth-child(2) > h3 {
+        top: 0;
+
+    }
+
+    .swiper {
+        top: 22vw;
+
+    }
+
+
+}
+
+
 
 
