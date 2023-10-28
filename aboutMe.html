@@ -12,10 +12,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
-<!--    <link rel="stylesheet" href="assets/lib/fontawsome/css/all.min.css">-->
+    <!--    <link rel="stylesheet" href="assets/lib/fontawsome/css/all.min.css">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
           integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-          crossorigin="anonymous" referrerpolicy="no-referrer" />
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -38,16 +39,16 @@
         <i class="fa-solid fa-xmark"></i>
     </div>
 
-    <div id="menu-icon-bg"></div>
+    <div id="menu-bg" class="menu-bg"></div>
 
 </header>
 <main>
 
     <!--        About me     -->
     <section>
-        <h1 class="page-header">About Me</h1>
-        <img src="assets/img/about-me-image.jpg" alt="my image about (me sec)">
-        <p>
+        <h1 data-aos="zoom-out" class="page-header">About Me</h1>
+        <img data-aos="fade-right" src="assets/img/about-me-image.jpg" alt="my image about (me sec)">
+        <p data-aos="fade-left">
             I’m Dasun Madawa , Full Stack developer and still undergraduate. I’m From Sri Lanka. I’m Interest to study
             new Technologies and AI. I’m always proactive about seeking new opportunities to develop and grow in my
             role.
@@ -60,27 +61,28 @@
 
     <!--    Education       -->
     <section>
-        <div>
-            <img src="assets/img/icon/svg/education-icon.svg" alt="education icon">
-            <h3>Education</h3>
+        <div data-aos="zoom-out">
+            <img data-aos="fade-down" data-aos-delay="100" src="assets/img/icon/svg/education-icon.svg"
+                 alt="education icon">
+            <h3 data-aos="fade-up" data-aos-delay="200">Education</h3>
         </div>
         <div>
-            <div>
+            <div data-aos="fade-right">
                 <img src="assets/img/icon/svg/tag-icon.svg" alt="tag">
                 <p>Primary Education (2008 - 2012)</p>
                 <p>Taxila Primary College -Horana</p>
             </div>
-            <div>
+            <div data-aos="fade-right" data-aos-delay="100">
                 <img src="assets/img/icon/svg/tag-icon.svg" alt="tag">
                 <p>Ordinary Level (2013 - 2018)</p>
                 <p>Taxila Central College -Horana</p>
             </div>
-            <div>
+            <div data-aos="fade-right" data-aos-delay="200">
                 <img src="assets/img/icon/svg/tag-icon.svg" alt="tag">
                 <p>Advanced Level (2018 - 2021)</p>
                 <p>Taxila Central College -Horana</p>
             </div>
-            <div>
+            <div data-aos="fade-right" data-aos-delay="300">
                 <img src="assets/img/icon/svg/tag-icon.svg" alt="tag">
                 <p>Higher Education (2022)</p>
                 <p>Institute of Software Engineering</p>
@@ -90,24 +92,25 @@
 
     <!--    Languages Section       -->
     <section>
-        <h3>Languages</h3>
+        <h3 data-aos="zoom-out">Languages</h3>
         <div>
-            <img src="assets/img/icon/svg/java-icon.svg" alt="java icon">
-            <img src="assets/img/icon/svg/mysql-icon.svg" alt="mysql icon">
-            <img src="assets/img/icon/svg/js-icon.svg" alt="js icon">
-            <img src="assets/img/icon/svg/css-icon.svg" alt="css icon">
-            <img src="assets/img/icon/svg/html-icon.svg" alt="html icon">
+            <img data-aos="fade-up" src="assets/img/icon/svg/java-icon.svg" alt="java icon">
+            <img data-aos="fade-up" data-aos-delay="100" src="assets/img/icon/svg/mysql-icon.svg" alt="mysql icon">
+            <img data-aos="fade-up" data-aos-delay="200" src="assets/img/icon/svg/js-icon.svg" alt="js icon">
+            <img data-aos="fade-up" data-aos-delay="300" src="assets/img/icon/svg/css-icon.svg" alt="css icon">
+            <img data-aos="fade-up" data-aos-delay="400" src="assets/img/icon/svg/html-icon.svg" alt="html icon">
         </div>
     </section>
 
     <!--    Achievements       -->
     <section>
-        <div>
-            <img src="assets/img/icon/svg/achievements.svg" alt="achievements icon">
-            <h3>Achievements</h3>
+        <div data-aos="zoom-out">
+            <img data-aos="fade-down" data-aos-delay="100" src="assets/img/icon/svg/achievements.svg"
+                 alt="achievements icon">
+            <h3 data-aos="fade-up" data-aos-delay="200">Achievements</h3>
         </div>
         <div>
-            <div>
+            <div data-aos="fade-up">
                 <div>
                     <img src="assets/img/ctf/ijse-1st-sem-final-ctf.jpg" alt="certificate">
                 </div>
@@ -116,7 +119,7 @@
                 </p>
             </div>
 
-            <div>
+            <div data-aos="fade-up" data-aos-delay="100">
                 <div>
                     <img src="assets/img/ctf/ijse-inovesta-ctf.jpg" alt="certificate">
                 </div>
@@ -125,7 +128,7 @@
                 </p>
             </div>
 
-            <div>
+            <div data-aos="fade-up" data-aos-delay="200">
                 <div>
                     <img src="assets/img/ctf/ncit-graphic-ctf.jpg" alt="certificate">
                 </div>
@@ -134,7 +137,7 @@
                 </p>
             </div>
 
-            <div>
+            <div data-aos="fade-up">
                 <div>
                     <img src="assets/img/ctf/ncit-hardware-ctf.jpg" alt="certificate">
                 </div>
@@ -143,7 +146,7 @@
                 </p>
             </div>
 
-            <div>
+            <div data-aos="fade-up" data-aos-delay="100">
                 <div>
                     <img src="assets/img/ctf/ncit-it-ctf.jpg" alt="certificate">
                 </div>
@@ -152,7 +155,7 @@
                 </p>
             </div>
 
-            <div>
+            <div data-aos="fade-up" data-aos-delay="200">
                 <div>
                     <img src="assets/img/ctf/kabaddi-provincal-ctf.jpg" alt="certificate">
                 </div>
@@ -161,7 +164,7 @@
                 </p>
             </div>
 
-            <div>
+            <div data-aos="fade-up">
                 <div>
                     <img src="assets/img/ctf/life-saving-ctf.jpg" alt="certificate">
                 </div>
@@ -170,7 +173,7 @@
                 </p>
             </div>
 
-            <div>
+            <div data-aos="fade-up" data-aos-delay="100">
                 <div>
                     <img src="assets/img/ctf/colombo-marathon-ctf.jpg" alt="certificate">
                 </div>
@@ -179,7 +182,7 @@
                 </p>
             </div>
 
-            <div>
+            <div data-aos="fade-up" data-aos-delay="200">
                 <div>
                     <img src="assets/img/ctf/scout-bp-day-ctf.jpg" alt="certificate">
                 </div>
@@ -188,7 +191,7 @@
                 </p>
             </div>
 
-            <div>
+            <div data-aos="fade-up">
                 <div>
                     <img src="assets/img/ctf/scout-rally-2014-ctf.jpg" alt="certificate">
                 </div>
@@ -197,7 +200,7 @@
                 </p>
             </div>
 
-            <div>
+            <div data-aos="fade-up" data-aos-delay="100">
                 <div>
                     <img src="assets/img/ctf/scout-rally-2016-ctf.jpg" alt="certificate">
                 </div>
@@ -206,7 +209,7 @@
                 </p>
             </div>
 
-            <div>
+            <div data-aos="fade-up" data-aos-delay="200">
                 <div>
                     <img src="assets/img/ctf/scout-bp-day2-ctf.jpg" alt="certificate">
                 </div>
@@ -215,7 +218,7 @@
                 </p>
             </div>
 
-            <div>
+            <div data-aos="fade-up">
                 <div>
                     <img src="assets/img/ctf/leadership-training-program-ctf.jpg" alt="certificate">
                 </div>
@@ -224,7 +227,7 @@
                 </p>
             </div>
 
-            <div>
+            <div data-aos="fade-up" data-aos-delay="100">
                 <div>
                     <img src="assets/img/ctf/color-night-ctf.jpg" alt="certificate">
                 </div>
@@ -233,7 +236,7 @@
                 </p>
             </div>
 
-            <div>
+            <div data-aos="fade-up" data-aos-delay="200">
                 <div>
                     <img src="assets/img/ctf/daham-pasal2-ctf.jpg" alt="certificate">
                 </div>
@@ -242,7 +245,7 @@
                 </p>
             </div>
 
-            <div>
+            <div data-aos="fade-up">
                 <div>
                     <img src="assets/img/ctf/daham-pasal1-ctf.jpg" alt="certificate">
                 </div>
@@ -251,7 +254,7 @@
                 </p>
             </div>
 
-            <div>
+            <div data-aos="fade-up" data-aos-delay="100">
                 <div>
                     <img src="assets/img/ctf/daham-pasal3-ctf.jpg" alt="certificate">
                 </div>
@@ -260,7 +263,7 @@
                 </p>
             </div>
 
-            <div>
+            <div data-aos="fade-up" data-aos-delay="200">
                 <div>
                     <img src="assets/img/logo/prefect-logo.jpg" alt="certificate">
                 </div>
@@ -269,7 +272,7 @@
                 </p>
             </div>
 
-            <div>
+            <div data-aos="fade-up">
                 <div>
                     <img src="assets/img/logo/prefect-logo.jpg" alt="certificate">
                 </div>
@@ -281,7 +284,7 @@
 
         </div>
 
-        <div>
+        <div data-aos="fade-up">
             <p>
                 TCC Sport Meet 2014, 2016, 2018, 2020
             </p>
@@ -323,16 +326,18 @@
         </div>
 
         <div class="social-icons">
-            <a href="https://github.com/DasunMadawa" target="_blank">
+            <a data-aos="zoom-in-up" href="https://github.com/DasunMadawa" target="_blank">
                 <i class="fa-brands fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/dasun-madawa-41255927b/" target="_blank">
+            <a data-aos="zoom-in-up" data-aos-delay="100" href="https://www.linkedin.com/in/dasun-madawa-41255927b/"
+               target="_blank">
                 <i class="fa-brands fa-linkedin-in"></i>
             </a>
-            <a href="https://www.facebook.com/dasun.pabasara.104" target="_blank">
+            <a data-aos="zoom-in-up" data-aos-delay="200" href="https://www.facebook.com/dasun.pabasara.104"
+               target="_blank">
                 <i class="fa-brands fa-facebook-f"></i>
             </a>
-            <a href="https://wa.me/+94716177681" target="_blank">
+            <a data-aos="zoom-in-up" data-aos-delay="300" href="https://wa.me/+94716177681" target="_blank">
                 <i class="fa-brands fa-whatsapp"></i>
             </a>
         </div>
@@ -347,6 +352,7 @@
 <script src="assets/lib/jquery.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="assets/js/script.js"></script>
+<script src="assets/js/script_about_me.js"></script>
 
 <script>
     AOS.init();

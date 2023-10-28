@@ -12,6 +12,7 @@ body > main > section {
     height: 410vw;
     background-color: #040404;
     z-index: 0;
+    overflow: hidden;
 
 }
 
@@ -88,7 +89,7 @@ body > main > section > div > div:nth-child(10) > div {
 }
 
 body > main > section > div > div:nth-child(11) > div {
-    background-image: url("/assets/img/gallery/gallery-11.jpg");
+    background-image: url("/assets/img/gallery/gallery-20.jpg");
 }
 
 body > main > section > div > div:nth-child(12) > div {
@@ -282,15 +283,15 @@ body > main > section > div > div:nth-child(19) {
 
 
 
-    body > main > section > div > div:nth-child(3) {
+    body > main > section > div > div:nth-child(2) {
         grid-column: 1/779;
-        grid-row: 600/974;
+        grid-row: 600/1144;
 
     }
 
-    body > main > section > div > div:nth-child(2) {
+    body > main > section > div > div:nth-child(3) {
         grid-column: 1/779;
-        grid-row: 989/1533;
+        grid-row: 1159/1533;
     }
 
     body > main > section > div > div:nth-child(4) {
