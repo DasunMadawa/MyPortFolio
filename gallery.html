@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
           integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
           crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -46,18 +47,18 @@
 
     <!--    gallery photo-->
     <section>
-        <h1 class="page-header">Gallery</h1>
+        <h1 data-aos="zoom-out" class="page-header">Gallery</h1>
         <div id="gallery-wrapper" class="gallery-wrapper">
-            <div>
+            <div data-aos="fade-right">
                 <div></div>
             </div>
-            <div>
+            <div data-aos="fade-left">
                 <div></div>
             </div>
-            <div>
+            <div data-aos="fade-right">
                 <div></div>
             </div>
-            <div>
+            <div data-aos="fade-left">
                 <div></div>
             </div>
             <div>
@@ -159,16 +160,16 @@
         </div>
 
         <div class="social-icons">
-            <a href="https://github.com/DasunMadawa" target="_blank">
+            <a data-aos="zoom-in-up" href="https://github.com/DasunMadawa" target="_blank">
                 <i class="fa-brands fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/dasun-madawa-41255927b/" target="_blank">
+            <a data-aos="zoom-in-up" data-aos-delay="100" href="https://www.linkedin.com/in/dasun-madawa-41255927b/" target="_blank">
                 <i class="fa-brands fa-linkedin-in"></i>
             </a>
-            <a href="https://www.facebook.com/dasun.pabasara.104" target="_blank">
+            <a data-aos="zoom-in-up" data-aos-delay="200" href="https://www.facebook.com/dasun.pabasara.104" target="_blank">
                 <i class="fa-brands fa-facebook-f"></i>
             </a>
-            <a href="https://wa.me/+94716177681" target="_blank">
+            <a data-aos="zoom-in-up" data-aos-delay="300" href="https://wa.me/+94716177681" target="_blank">
                 <i class="fa-brands fa-whatsapp"></i>
             </a>
         </div>
@@ -184,6 +185,7 @@
 <script src="assets/lib/jquery.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="assets/js/script.js"></script>
+<script src="assets/js/script_gallery.js"></script>
 
 <script>
     AOS.init();

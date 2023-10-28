@@ -10,6 +10,7 @@ body > main > section {
     height: 3280px;
     background-color: #040404;
     z-index: 0;
+    overflow: hidden;
 
 }
 

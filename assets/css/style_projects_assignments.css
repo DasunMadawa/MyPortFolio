@@ -601,13 +601,13 @@ body > main > section:nth-child(2) > h3 {
 
     body > main > section:first-child > p {
         font-size: 20px;
-        top: 640px;
+        top: 620px;
     }
 
     #code-btn {
         width: 135px;
         height: 55px;
-        top: 950px;
+        top: 980px;
 
     }
 
@@ -729,7 +729,7 @@ body > main > section:nth-child(2) > h3 {
     #code-btn {
         width: 100px;
         height: 45px;
-        top: 720px;
+        top: 740px;
 
     }
 
