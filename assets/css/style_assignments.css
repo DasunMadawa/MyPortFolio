@@ -17,13 +17,14 @@ body > main > section {
 body > main > section > div:nth-child(2){
     position: absolute;
     display: flex;
-    height: 2860px;
+    height: fit-content;
     width: 83vw;
     top: 300px;
     left: 0;
     right: 0;
     margin: auto;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 
 }
@@ -60,7 +61,7 @@ body > main > section > div:nth-child(2) > div {
     position: absolute;
     width: 452px;
     height: 620px;
-    border-radius: 20px;
+    border-radius: 10px;
     transform-style: preserve-3d;
 
 }
@@ -80,7 +81,7 @@ body > main > section > div:nth-child(2) > div {
     transform: translateZ(50px);
     width: 452px;
     height: 302px;
-    border-radius: 20px 20px 0 0;
+    border-radius: 10px 10px 0 0;
 }
 
 .assignment-card-title , .assignment-card-subtitle {
@@ -308,13 +309,13 @@ body > main > section > div:nth-child(2) > div:nth-child(12) {
 
 @media all and (max-width: 1366px) {
     body > main > section {
-        height: 3700px;
+        height: 4500px;
 
     }
 
     body > main > section > div:nth-child(2) {
-        transform: scale(0.8);
-        top: 50px;
+        /*transform: scale(0.8);*/
+        /*top: 50px;*/
 
     }
 
@@ -326,7 +327,7 @@ body > main > section > div:nth-child(2) > div:nth-child(12) {
 
 @media all and (max-width: 1233px){
     body > main > section {
-        height: 6450px;
+        height: 8000px;
 
     }
 
@@ -335,128 +336,183 @@ body > main > section > div:nth-child(2) > div:nth-child(12) {
 }
 
 @media all and (max-width: 1000px){
+    /*body > main > section {*/
+    /*    height: 2650px;*/
+    /*}*/
+
+    /*body > main > section > div:nth-child(2) > div:nth-child(12) {*/
+    /*    position: relative;*/
+    /*    width: 452px;*/
+    /*    height: 620px;*/
+    /*    background-color: transparent;*/
+
+    /*}*/
+
+    /*.assignment-card, .assignment-card-content{*/
+    /*    width: 291px;*/
+    /*    height: 400px;*/
+
+    /*}*/
+
+    /*.assignment-card-front , .assignment-card-back {*/
+    /*    width: 291px;*/
+    /*    height: 400px;*/
+
+    /*}*/
+
+    /*.assignment-card-image {*/
+    /*    width: 291px;*/
+    /*    height: 200px;*/
+    /*}*/
+
+    /*.assignment-card-title {*/
+    /*    transform: translateZ(100px);*/
+    /*    top: 245px;*/
+    /*    font-size: 20px;*/
+    /*}*/
+
+
+    /*.assignment-card-subtitle {*/
+    /*    transform: translateZ(80px);*/
+    /*    top: 310px;*/
+    /*    color: white;*/
+    /*    font-size: 14px;*/
+    /*}*/
+
     body > main > section {
-        height: 2650px;
+        height: 2600px;
     }
 
     body > main > section > div:nth-child(2) > div:nth-child(12) {
-        position: relative;
-        width: 452px;
-        height: 620px;
+        aspect-ratio: 291/400;
+        width: 230px;
+        height: auto;
         background-color: transparent;
 
     }
 
+    body > main > section > div:nth-child(2) {
+
+    }
+
+    body > main > section > div:nth-child(2) > div {
+        margin: 25px;
+
+    }
+
     .assignment-card, .assignment-card-content{
-        width: 291px;
-        height: 400px;
+        aspect-ratio: 291/400;
+        width: 230px;
+        height: auto;
 
     }
 
     .assignment-card-front , .assignment-card-back {
-        width: 291px;
-        height: 400px;
-
+        aspect-ratio: 291/400;
+        width: 230px;
+        height: auto;
     }
 
     .assignment-card-image {
-        width: 291px;
-        height: 200px;
+        aspect-ratio: 291/200;
+        width: 230px;
+        height: auto;
     }
 
     .assignment-card-title {
         transform: translateZ(100px);
-        top: 245px;
-        font-size: 20px;
+        top: 190px;
+        font-size: 16px;
     }
 
 
     .assignment-card-subtitle {
         transform: translateZ(80px);
-        top: 310px;
+        top: 240px;
         color: white;
-        font-size: 14px;
+        font-size: 11px;
     }
 
-    /*assignment card style*/
     .hr-style {
-        width: 240px;
+        height: 1px;
+        width: 187px;
 
     }
 
     .hr-style-1 {
-        top: 132px;
+        top: 113px;
 
     }
 
     .hr-style-2 {
-        top: 176px;
+        top: 149px;
 
     }
 
     .hr-style-3 {
-        top: 220px;
+        top: 184px;
 
     }
 
     .hr-style-4 {
-        top: 267px;
+        top: 219px;
 
     }
 
     .hr-style-5 {
-        top: 312px;
+        top: 255px;
 
     }
 
     .assignment-card-title-back {
-        top: 35px;
-        font-size: 26px;
+        top: 30px;
+        font-size: 21px;
     }
 
     .assignment-card-subtitle-back {
-        font-size: 16px;
+        font-size: 12px;
+        left: 24px;
 
     }
 
     .assignment-card-subtitle-back-1 {
-        top: 100px;
+        top: 90px;
     }
 
     .assignment-card-subtitle-back-2 {
-        top: 145px;
+        top: 125px;
     }
 
     .assignment-card-subtitle-back-3 {
-        top: 190px;
+        top: 160px;
     }
 
     .assignment-card-subtitle-back-4 {
-        top: 235px;
+        top: 195px;
     }
 
     .assignment-card-subtitle-back-5 {
-        top: 280px;
+        top: 230px;
     }
 
     .assignment-card-subtitle-back-6 {
-        top: 325px;
+        top: 265px;
     }
 
     .assignment-card-btn-back {
-        width: 60px;
-        height: 20px;
-        border-radius: 5px;
+        width: 45px;
+        height: 16px;
+        border-radius: 4px;
     }
 
     .assignment-card-btn-back > a {
-        font-size: 14px;
+        font-size: 10px;
         font-weight: 400;
 
     }
 
     .assignment-card-btn-back:hover > a {
-        font-size: 14px;
+        font-size: 10px;
         color: #1C1C1C;
     }
 
@@ -466,55 +522,64 @@ body > main > section > div:nth-child(2) > div:nth-child(12) {
     .assignment-card-run-btn-back-4 ,
     .assignment-card-run-btn-back-5 ,
     .assignment-card-run-btn-back-6 {
-        left: 135px;
+        left: 110px;
+    }
+
+    .assignment-card-code-btn-back-1 ,
+    .assignment-card-code-btn-back-2 ,
+    .assignment-card-code-btn-back-3 ,
+    .assignment-card-code-btn-back-4 ,
+    .assignment-card-code-btn-back-5 ,
+    .assignment-card-code-btn-back-6 {
+        right: 24px;
     }
 
     .assignment-card-code-btn-back-1 {
-        top: 98px;
+        top: 88px;
     }
 
     .assignment-card-run-btn-back-1 {
-        top: 98px;
+        top: 88px;
     }
 
     .assignment-card-code-btn-back-2 {
-        top: 143px;
+        top: 123px;
     }
 
     .assignment-card-run-btn-back-2 {
-        top: 143px;
+        top: 123px;
     }
 
     .assignment-card-code-btn-back-3 {
-        top: 188px;
+        top: 158px;
     }
 
     .assignment-card-run-btn-back-3 {
-        top: 188px;
+        top: 158px;
     }
 
     .assignment-card-code-btn-back-4 {
-        top: 233px;
+        top: 193px;
     }
 
     .assignment-card-run-btn-back-4 {
-        top: 233px;
+        top: 193px;
     }
 
     .assignment-card-code-btn-back-5 {
-        top: 278px;
+        top: 228px;
     }
 
     .assignment-card-run-btn-back-5 {
-        top: 278px;
+        top: 228px;
     }
 
     .assignment-card-code-btn-back-6 {
-        top: 323px;
+        top: 263px;
     }
 
     .assignment-card-run-btn-back-6 {
-        top: 323px;
+        top: 263px;
     }
 
 
@@ -525,7 +590,7 @@ body > main > section > div:nth-child(2) > div:nth-child(12) {
 
 @media all and (max-width: 845px){
     body > main > section {
-        height: 4500px;
+        /*height: 4500px;*/
 
     }
 
@@ -536,10 +601,18 @@ body > main > section > div:nth-child(2) > div:nth-child(12) {
 
 }
 
-@media all and (max-width: 425px){
-    body > main > section > div:nth-child(2) {
-        top: -10px;
+@media all and (max-width: 674px){
+    body > main > section {
+        height: 4450px;
+
     }
+
+}
+
+@media all and (max-width: 425px){
+    /*body > main > section > div:nth-child(2) {*/
+    /*    top: -10px;*/
+    /*}*/
 
     body > main > section > h1 {
         font-size: 32px!important;

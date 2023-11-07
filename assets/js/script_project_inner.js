@@ -156,7 +156,7 @@ if (project === "chatBox") {
 
     var source = document.createElement('source');
 
-    source.setAttribute('src', 'assets/video/project-harbormaster-short.mp4');
+    source.setAttribute('src', 'assets/video/chat-box-short.mp4');
     source.setAttribute('type', 'video/mp4');
 
     video.appendChild(source);
