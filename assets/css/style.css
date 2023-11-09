@@ -789,6 +789,11 @@ body > footer > div:nth-child(2) > img {
 }
 
 @media all and (max-width: 450px){
+    body > header > a:first-child > img {
+        position: absolute;
+        width: 40px;
+    }
+
     body > footer > div > div:nth-child(3) {
         right: 1vw;
 

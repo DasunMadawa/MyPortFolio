@@ -21,11 +21,11 @@ let preloaderHide = function () {
 
 //set loading animations
 function setLoadingAnimations() {
-    $("section > div:first-child > h3:first-child").addClass("animate__animated animate__fadeInLeft");
-    $("section > div:first-child > h1").addClass("animate__animated animate__fadeInLeft");
-    $("section > div:first-child > h3").addClass("animate__animated animate__fadeInLeft");
-    $("section > div:first-child > h4").addClass("animate__animated animate__fadeInLeft");
-    $("section > div:first-child > button").addClass("animate__animated animate__fadeInLeft");
+    $("section > div:first-child > h3:first-child").addClass("animate__animated animate__fadeInDown");
+    $("section > div:first-child > h1").addClass("animate__animated animate__fadeInDown");
+    $("section > div:first-child > h3").addClass("animate__animated animate__fadeInDown");
+    $("section > div:first-child > h4").addClass("animate__animated animate__fadeInDown");
+    $("section > div:first-child > button").addClass("animate__animated animate__fadeInDown");
 
     $("section > div:nth-child(2) > img:first-child").addClass("animate__animated animate__fadeInUp");
 
