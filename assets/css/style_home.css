@@ -1421,7 +1421,7 @@ body > main > section:nth-child(5) > div:nth-child(2) > div > div:nth-child(3) >
 
     body > main > section:first-child > div:first-child {
         transform: scale(1);
-        top: 110px;
+        top: 80px;
         width: 380px;
     }
 
@@ -1485,6 +1485,11 @@ body > main > section:nth-child(5) > div:nth-child(2) > div > div:nth-child(3) >
 }
 
 @media all and (max-width: 425px) {
+    /*hero section*/
+    body > main > section:first-child {
+        height: 94.5vh;
+        min-height: 740px;
+    }
 
     /*about me*/
     body > main > section:nth-child(2) {
@@ -1507,6 +1512,12 @@ body > main > section:nth-child(5) > div:nth-child(2) > div > div:nth-child(3) >
     body > main > section:nth-child(2) > div:nth-child(2) {
         top: 500px;
         transform: scale(0.8);
+
+    }
+
+    body > main > section:first-child > div:nth-child(2) > img:first-child {
+        height: 440px;
+        left: 0vw;
 
     }
 
@@ -1642,7 +1653,7 @@ body > main > section:nth-child(5) > div:nth-child(2) > div > div:nth-child(3) >
     }
 
     body > main > section:first-child > div:nth-child(2) > img:first-child {
-        height: 490px;
+        /*height: 490px;*/
         left: -5vw;
 
     }
@@ -1723,7 +1734,7 @@ body > main > section:nth-child(5) > div:nth-child(2) > div > div:nth-child(3) >
 
 @media all and (max-width: 360px) {
     body > main > section:first-child > div:first-child {
-        top: 100px;
+        /*top: 100px;*/
         transform: scale(0.9);
 
     }

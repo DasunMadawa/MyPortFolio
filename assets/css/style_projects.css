@@ -114,6 +114,7 @@ body > main > section > div:nth-child(2) > div:nth-child(3) > div:first-child > 
         height: 1500px;
 
     }
+
 }
 
 @media all and (max-width: 1233px){

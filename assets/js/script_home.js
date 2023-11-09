@@ -9,9 +9,9 @@ window.addEventListener('load', () => {
 
     setTimeout(setLoadingAnimations, 0);
     setTimeout(socialIcon1Animation, 100);
-    setTimeout(socialIcon2Animation, 200);
-    setTimeout(socialIcon3Animation, 300);
-    setTimeout(socialIcon4Animation, 400);
+    setTimeout(socialIcon2Animation, 150);
+    setTimeout(socialIcon3Animation, 200);
+    setTimeout(socialIcon4Animation, 250);
 
 });
 
@@ -27,27 +27,27 @@ function setLoadingAnimations() {
     $("section > div:first-child > h4").addClass("animate__animated animate__fadeInDown");
     $("section > div:first-child > button").addClass("animate__animated animate__fadeInDown");
 
-    $("section > div:nth-child(2) > img:first-child").addClass("animate__animated animate__fadeInUp");
+    $("section > div:nth-child(2) > img:first-child").addClass("animate__animated animate__fadeInUpBig");
 
 }
 
 function socialIcon1Animation() {
-    $("section > div:nth-child(3) > a:first-child").addClass("animate__animated animate__fadeInUp");
+    $("section > div:nth-child(3) > a:first-child").addClass("animate__animated animate__fadeInUpBig");
 
 }
 
 function socialIcon2Animation() {
-    $("section > div:nth-child(3) > a:nth-child(2)").addClass("animate__animated animate__fadeInUp");
+    $("section > div:nth-child(3) > a:nth-child(2)").addClass("animate__animated animate__fadeInUpBig");
 
 }
 
 function socialIcon3Animation() {
-    $("section > div:nth-child(3) > a:nth-child(3)").addClass("animate__animated animate__fadeInUp");
+    $("section > div:nth-child(3) > a:nth-child(3)").addClass("animate__animated animate__fadeInUpBig");
 
 }
 
 function socialIcon4Animation() {
-    $("section > div:nth-child(3) > a:nth-child(4)").addClass("animate__animated animate__fadeInUp");
+    $("section > div:nth-child(3) > a:nth-child(4)").addClass("animate__animated animate__fadeInUpBig");
 
 }
 

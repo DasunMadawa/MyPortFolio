@@ -814,6 +814,13 @@ body > footer > div:nth-child(2) > img {
 
 }
 
+@media all and (max-width: 425px) {
+    .pre-loader > #pre-load-logo {
+        width: 50px;
+    }
+
+}
+
 @media all and (max-width: 370px) {
     /*footer*/
     body > footer > div:first-child {
