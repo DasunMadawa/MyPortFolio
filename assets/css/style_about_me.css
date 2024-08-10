@@ -293,13 +293,14 @@ body > main > section:nth-child(4) > div:nth-child(2) > div > div > img {
 
 }
 
-body > main > section:nth-child(4) > div:nth-child(2) > div:first-child > div > img ,
+/*body > main > section:nth-child(4) > div:nth-child(2) > div:first-child > div > img ,*/
 body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > img ,
 body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(3) > div > img ,
-body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(7) > div > img ,
+body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > img ,
 body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(8) > div > img ,
 body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(9) > div > img ,
-body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(12) > div > img {
+body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(10) > div > img ,
+body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(13) > div > img {
     width: 322px;
     height: 452px;
     transform: rotate(-90deg);
@@ -518,13 +519,14 @@ body > main section:nth-child(4) > div:nth-child(3) > p:nth-child(2) {
 
     }
 
-    body > main > section:nth-child(4) > div:nth-child(2) > div:first-child > div > img ,
+    /*body > main > section:nth-child(4) > div:nth-child(2) > div:first-child > div > img ,*/
     body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > img ,
     body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(3) > div > img ,
-    body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(7) > div > img ,
+    body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > img ,
     body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(8) > div > img ,
     body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(9) > div > img ,
-    body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(12) > div > img {
+    body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(10) > div > img ,
+    body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(13) > div > img {
         top: -51px;
         width: 249px;
         height: 350px;
@@ -728,12 +730,12 @@ body > main section:nth-child(4) > div:nth-child(3) > p:nth-child(2) {
 @media all and (max-width: 898px) {
     /*achievements*/
     body > main > section:nth-child(4) {
-        height: 7850px;
+        height: 8200px;
 
     }
 
     body > main section:nth-child(4) > div:nth-child(3) {
-        top: 7550px;
+        top: 7900px;
         width: 420px;
         height: 200px;
 
@@ -1015,7 +1017,7 @@ body > main section:nth-child(4) > div:nth-child(3) > p:nth-child(2) {
 
     /*achievements*/
     body > main > section:nth-child(4) {
-        height: 5850px;
+        height: 6100px;
 
     }
 
@@ -1064,13 +1066,14 @@ body > main section:nth-child(4) > div:nth-child(3) > p:nth-child(2) {
 
     }
 
-    body > main > section:nth-child(4) > div:nth-child(2) > div:first-child > div > img ,
+    /*body > main > section:nth-child(4) > div:nth-child(2) > div:first-child > div > img ,*/
     body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div > img ,
     body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(3) > div > img ,
-    body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(7) > div > img ,
+    body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div > img ,
     body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(8) > div > img ,
     body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(9) > div > img ,
-    body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(12) > div > img {
+    body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(10) > div > img ,
+    body > main > section:nth-child(4) > div:nth-child(2) > div:nth-child(13) > div > img {
         top: -35px;
         width: 174px;
         height: 244px;
@@ -1084,7 +1087,7 @@ body > main section:nth-child(4) > div:nth-child(3) > p:nth-child(2) {
     }
 
     body > main section:nth-child(4) > div:nth-child(3) {
-        top: 5500px;
+        top: 5750px;
         width: 280px;
         height: 250px;
 

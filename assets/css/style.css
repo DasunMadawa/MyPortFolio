@@ -251,6 +251,7 @@ body > footer > div:nth-child(2) > img {
 /*scroll bar*/
 ::-webkit-scrollbar {
     width: 12px;
+    background-color: #E85D04;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -266,11 +267,12 @@ body > footer > div:nth-child(2) > img {
 
 ::-webkit-scrollbar-track {
     background-color: #1C1C1C;
+
 }
 
-::-webkit-scrollbar {
-    background-color: #E85D04;
-}
+/*::-webkit-scrollbar {*/
+/*    */
+/*}*/
 
 /*selection*/
 ::selection {
@@ -629,6 +631,7 @@ body > footer > div:nth-child(2) > img {
         top: 257px;
         color: white;
         font-size: 14px;
+        padding: 0 20px;
     }
 
     .card-logo {
